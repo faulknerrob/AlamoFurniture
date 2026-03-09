@@ -1,15 +1,12 @@
 /* ==========================================================================
-   Alamo Live Edge Furniture Co. — Main JavaScript
+   Lone Star Live Edge — Main JavaScript
    Handles: Navigation, FAQ Accordions, Form Validation, Scroll Animations,
-            Shop Filters, Smooth Scrolling
+            Shop Filters, Smooth Scrolling, Cookie Notice
    ========================================================================== */
 
 (function () {
   'use strict';
 
-  /* --------------------------------------------------------------------------
-     DOM Ready
-     -------------------------------------------------------------------------- */
   document.addEventListener('DOMContentLoaded', function () {
     initNavigation();
     initScrollHeader();
@@ -18,6 +15,7 @@
     initFormValidation();
     initShopFilters();
     initSmoothScroll();
+    initCookieNotice();
   });
 
   /* --------------------------------------------------------------------------
@@ -57,13 +55,11 @@
       overlay.addEventListener('click', closeMenu);
     }
 
-    // Close menu on link click
     var navLinks = menu.querySelectorAll('.nav__link');
     navLinks.forEach(function (link) {
       link.addEventListener('click', closeMenu);
     });
 
-    // Close on Escape key
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
         closeMenu();
@@ -100,7 +96,6 @@
     var elements = document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right');
     if (!elements.length) return;
 
-    // Use IntersectionObserver if available
     if ('IntersectionObserver' in window) {
       var observer = new IntersectionObserver(
         function (entries) {
@@ -126,7 +121,6 @@
         observer.observe(el);
       });
     } else {
-      // Fallback: show all elements immediately
       elements.forEach(function (el) {
         el.classList.add(getVisibleClass(el));
       });
@@ -155,7 +149,6 @@
       question.addEventListener('click', function () {
         var isExpanded = item.getAttribute('aria-expanded') === 'true';
 
-        // Close all other items in the same section
         var parentSection = item.closest('.faq-section');
         if (parentSection) {
           parentSection.querySelectorAll('.faq-item').forEach(function (otherItem) {
@@ -165,11 +158,9 @@
           });
         }
 
-        // Toggle current item
         item.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
       });
 
-      // Keyboard support
       question.addEventListener('keydown', function (e) {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
@@ -193,26 +184,22 @@
         var isValid = validateForm(form);
 
         if (isValid) {
-          // Show success message
-          var successMsg = form.closest('section').querySelector('.form-success');
+          var successMsg = form.closest('section') ? form.closest('section').querySelector('.form-success') : form.parentElement.querySelector('.form-success');
           if (successMsg) {
             form.style.display = 'none';
             successMsg.classList.add('form-success--visible');
           }
 
-          // In production, this would submit to a server
           console.log('Form submitted:', getFormData(form));
         }
       });
 
-      // Real-time validation on blur
       var inputs = form.querySelectorAll('.form-input, .form-select, .form-textarea');
       inputs.forEach(function (input) {
         input.addEventListener('blur', function () {
           validateField(input);
         });
 
-        // Clear error on input
         input.addEventListener('input', function () {
           var group = input.closest('.form-group');
           if (group && group.classList.contains('form-group--error')) {
@@ -232,7 +219,6 @@
         }
       });
 
-      // Focus the first invalid field
       if (!isValid) {
         var firstError = form.querySelector('.form-group--error .form-input, .form-group--error .form-select, .form-group--error .form-textarea');
         if (firstError) firstError.focus();
@@ -250,13 +236,11 @@
       var isValid = true;
       var errorMessage = '';
 
-      // Required check
       if (field.hasAttribute('required') && !value) {
         isValid = false;
         errorMessage = 'This field is required.';
       }
 
-      // Email validation
       if (isValid && field.type === 'email' && value) {
         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(value)) {
@@ -265,7 +249,6 @@
         }
       }
 
-      // Phone validation
       if (isValid && field.type === 'tel' && value) {
         var phoneRegex = /^[\d\s\-\(\)\+]{7,}$/;
         if (!phoneRegex.test(value)) {
@@ -274,7 +257,6 @@
         }
       }
 
-      // Update UI
       if (!isValid) {
         group.classList.add('form-group--error');
         if (errorEl) errorEl.textContent = errorMessage;
@@ -299,33 +281,37 @@
      Shop Filters
      -------------------------------------------------------------------------- */
   function initShopFilters() {
-    var filterContainer = document.querySelector('.shop-filters');
-    if (!filterContainer) return;
+    var filterContainers = document.querySelectorAll('.shop-filters');
+    if (!filterContainers.length) return;
 
-    var filterBtns = filterContainer.querySelectorAll('.shop-filter-btn');
-    var galleryCards = document.querySelectorAll('.gallery-card[data-category]');
+    var productCards = document.querySelectorAll('.product-card[data-category]');
 
-    filterBtns.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var category = btn.getAttribute('data-filter');
+    filterContainers.forEach(function (container) {
+      var filterBtns = container.querySelectorAll('.shop-filter-btn[data-filter]');
 
-        // Update active button
-        filterBtns.forEach(function (b) {
-          b.classList.remove('shop-filter-btn--active');
-        });
-        btn.classList.add('shop-filter-btn--active');
+      filterBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var category = btn.getAttribute('data-filter');
 
-        // Filter cards
-        galleryCards.forEach(function (card) {
-          if (category === 'all' || card.getAttribute('data-category') === category) {
-            card.style.display = '';
-            // Trigger re-animation
-            card.classList.remove('fade-in--visible');
-            void card.offsetWidth; // force reflow
-            card.classList.add('fade-in--visible');
-          } else {
-            card.style.display = 'none';
-          }
+          // Update active state across all filter containers
+          document.querySelectorAll('.shop-filter-btn[data-filter]').forEach(function (b) {
+            b.classList.remove('shop-filter-btn--active');
+          });
+          document.querySelectorAll('.shop-filter-btn[data-filter="' + category + '"]').forEach(function (b) {
+            b.classList.add('shop-filter-btn--active');
+          });
+
+          // Filter cards
+          productCards.forEach(function (card) {
+            if (category === 'all' || card.getAttribute('data-category') === category) {
+              card.style.display = '';
+              card.classList.remove('fade-in--visible');
+              void card.offsetWidth;
+              card.classList.add('fade-in--visible');
+            } else {
+              card.style.display = 'none';
+            }
+          });
         });
       });
     });
@@ -345,7 +331,8 @@
 
         e.preventDefault();
 
-        var headerHeight = document.querySelector('.site-header').offsetHeight;
+        var header = document.querySelector('.site-header');
+        var headerHeight = header ? header.offsetHeight : 0;
         var targetPosition = target.getBoundingClientRect().top + window.scrollY - headerHeight - 20;
 
         window.scrollTo({
@@ -354,5 +341,38 @@
         });
       });
     });
+  }
+
+  /* --------------------------------------------------------------------------
+     Cookie Notice
+     -------------------------------------------------------------------------- */
+  function initCookieNotice() {
+    var notice = document.getElementById('cookie-notice');
+    if (!notice) return;
+
+    // Check if already accepted
+    if (localStorage.getItem('cookies-accepted')) return;
+
+    // Show after a short delay
+    setTimeout(function () {
+      notice.classList.add('cookie-notice--visible');
+    }, 2000);
+
+    var acceptBtn = document.getElementById('cookie-accept');
+    var declineBtn = document.getElementById('cookie-decline');
+
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', function () {
+        localStorage.setItem('cookies-accepted', 'true');
+        notice.classList.remove('cookie-notice--visible');
+      });
+    }
+
+    if (declineBtn) {
+      declineBtn.addEventListener('click', function () {
+        localStorage.setItem('cookies-accepted', 'declined');
+        notice.classList.remove('cookie-notice--visible');
+      });
+    }
   }
 })();

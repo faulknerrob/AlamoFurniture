@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /images/raw/
 
-Sitemap: https://alamoliveedge.com/sitemap.xml
+Sitemap: https://lonestarliveedge.com/sitemap.xml

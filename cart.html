@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | Lone Star Live Edge</title>
+  <meta name="description" content="Your shopping cart at Lone Star Live Edge.">
+  <link rel="canonical" href="https://lonestarliveedge.com/cart.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" class="nav__logo" aria-label="Lone Star Live Edge — Home">
+        <span class="nav__logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4" y="28" width="32" height="4" rx="1" fill="#CC5500"/>
+            <path d="M8 28C8 28 10 8 20 8C30 8 32 28 32 28" stroke="#F5F0EB" stroke-width="2.5" fill="none"/>
+            <path d="M14 28C14 28 15.5 14 20 14C24.5 14 26 28 26 28" stroke="#CC5500" stroke-width="1.5" fill="none"/>
+          </svg>
+        </span>
+        Lone Star Live Edge
+      </a>
+      <div class="nav__overlay" aria-hidden="true"></div>
+      <div class="nav__menu">
+        <ul class="nav__links" role="list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="shop.html" class="nav__link">Shop</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="quote.html" class="nav__link">Get a Quote</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <div class="nav__cta">
+          <a href="cart.html" class="btn btn--ghost btn--sm">Cart (0)</a>
+        </div>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <div class="page-intro">
+      <div class="container">
+        <h1>Your Cart</h1>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- Empty Cart State -->
+        <div class="cart-empty" id="cart-empty">
+          <h2>Looks Like Your Cart Is Empty</h2>
+          <p>Explore our collection of handcrafted furniture and find a piece that's truly one-of-a-kind.</p>
+          <div class="btn-group">
+            <a href="shop.html" class="btn btn--primary btn--lg">Explore the Shop</a>
+            <a href="quote.html" class="btn btn--secondary btn--lg">Request a Custom Build</a>
+          </div>
+        </div>
+
+        <!-- Cart with Items (hidden by default, shown via JS) -->
+        <div class="cart-layout" id="cart-items" style="display:none;">
+          <div>
+            <!-- Example Cart Item -->
+            <div class="cart-item">
+              <div class="cart-item__image">
+                <div class="product-card__image-placeholder" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:var(--color-text-muted);">Photo</div>
+              </div>
+              <div>
+                <h3 class="cart-item__name">Mesquite Live Edge Dining Table</h3>
+                <p class="cart-item__meta">Texas Mesquite &bull; 96" &times; 42"</p>
+                <button class="cart-item__remove">Remove</button>
+              </div>
+              <div>
+                <span class="cart-item__price">$3,800</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-summary">
+            <h3 class="cart-summary__title">Order Summary</h3>
+            <div class="cart-summary__row">
+              <span>Subtotal</span>
+              <span>$3,800.00</span>
+            </div>
+            <div class="cart-summary__row">
+              <span>Shipping</span>
+              <span>Calculated at checkout</span>
+            </div>
+            <div class="cart-summary__total">
+              <span>Total</span>
+              <span>$3,800.00</span>
+            </div>
+            <a href="#" class="btn btn--primary btn--lg">Proceed to Checkout</a>
+            <p class="cart-summary__note">Great choice &mdash; this piece is one of a kind. Secure checkout and nationwide shipping available.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-brand__name">Lone Star Live Edge</p>
+          <p class="footer-brand__tagline">Handcrafted live edge furniture from the heart of Texas.</p>
+          <div class="footer-badge">
+            <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1l1.5 1H12v2.5L13 6l-1 1.5V10H9.5L8 11l-1.5-1H4V7.5L3 6l1-1.5V2h2.5L8 1z"/></svg>
+            Veteran Owned &amp; Handcrafted in Texas
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="quote.html">Get a Quote</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Furniture</h4>
+          <ul role="list">
+            <li><a href="shop.html#dining-tables">Dining Tables</a></li>
+            <li><a href="shop.html#coffee-tables">Coffee Tables</a></li>
+            <li><a href="shop.html#desks">Desks &amp; Office</a></li>
+            <li><a href="shop.html#mantels">Mantels &amp; Shelving</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Get in Touch</h4>
+          <ul role="list">
+            <li><a href="tel:+12105550178">(210) 555-0178</a></li>
+            <li><a href="mailto:rob@lonestarliveedge.com">rob@lonestarliveedge.com</a></li>
+            <li>San Antonio, Texas</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copyright">&copy; 2026 Lone Star Live Edge. All rights reserved.</p>
+        <div class="footer-bottom__links"><a href="sitemap.xml">Sitemap</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
