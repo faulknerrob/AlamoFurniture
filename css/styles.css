@@ -497,7 +497,8 @@ p:last-child {
   z-index: 0;
 }
 
-.hero__bg-image {
+.hero__bg-image,
+.hero__bg-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1035,13 +1036,12 @@ p:last-child {
   background: linear-gradient(145deg, var(--color-bg-alt), #E8DFD0);
   border-radius: var(--border-radius-lg);
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-muted);
-  font-size: var(--font-size-sm);
-  text-align: center;
-  padding: var(--space-xl);
+}
+
+.about-intro__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about-intro__content h2 {
@@ -1086,13 +1086,13 @@ p:last-child {
   aspect-ratio: 16 / 10;
   background: linear-gradient(145deg, var(--color-bg-alt), #E8DFD0);
   border-radius: var(--border-radius-lg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-muted);
-  font-size: var(--font-size-sm);
-  text-align: center;
-  padding: var(--space-xl);
+  overflow: hidden;
+}
+
+.live-edge-grid__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* --------------------------------------------------------------------------
