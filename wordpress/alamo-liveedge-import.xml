@@ -1,0 +1,2114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- WordPress eXtended RSS (WXR) Import File -->
+<!-- Generated for: Alamo Live Edge Furniture Co. -->
+<!-- Import via: WordPress Dashboard > Tools > Import > WordPress -->
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+    <title>Alamo Live Edge Furniture Co.</title>
+    <link>https://alamoliveedge.com</link>
+    <description>Handcrafted live edge furniture in San Antonio, TX</description>
+    <pubDate>Tue, 10 Mar 2026 05:35:01 +0000</pubDate>
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://alamoliveedge.com</wp:base_site_url>
+    <wp:base_blog_url>https://alamoliveedge.com</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login><![CDATA[admin]]></wp:author_login>
+        <wp:author_email><![CDATA[rob@alamoliveedge.com]]></wp:author_email>
+        <wp:author_display_name><![CDATA[Rob Faulkner]]></wp:author_display_name>
+    </wp:author>
+
+    <item>
+        <title><![CDATA[Home]]></title>
+        <link>https://alamoliveedge.com/</link>
+        <pubDate>Tue, 10 Mar 2026 05:35:01 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://alamoliveedge.com/?page_id=1</guid>
+        <description></description>
+        <content:encoded><![CDATA[<!-- wp:html -->
+<!-- ===== HERO SECTION ===== -->
+    <section class="hero" aria-label="Welcome to Alamo Live Edge Furniture">
+      <div class="hero__bg">
+        <div class="hero__bg-placeholder" aria-hidden="true">
+          Photo: Live edge walnut table in a warm San Antonio dining room
+        </div>
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero__content">
+          <span class="hero__label">Veteran-Owned &bull; San Antonio, TX</span>
+          <h1 class="hero__title">Handcrafted Live Edge Furniture, Built&nbsp;in&nbsp;San&nbsp;Antonio</h1>
+          <p class="hero__subtitle">One-of-a-kind tables, desks, and shelving made from Texas hardwoods. Every piece shaped by hand, built to last generations, and crafted right here in the heart of South Texas.</p>
+          <div class="hero__ctas">
+            <a href="quote.html" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="shop.html" class="btn btn--light btn--lg">Explore Our Work</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <svg width="16" height="10" viewBox="0 0 16 10" fill="currentColor"><path d="M1 1l7 7 7-7"/></svg>
+      </div>
+    </section>
+
+    <!-- ===== WHO WE ARE ===== -->
+    <section class="section" id="intro">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Who We Are</span>
+          <h2>Real Wood. Real Craft. Real&nbsp;San&nbsp;Antonio.</h2>
+          <p>Alamo Live Edge Furniture Co. is the workshop of Rob Faulkner — a Navy veteran who traded steel decks for sawdust floors. We build custom live edge furniture from Texas hardwoods, one slab at a time, right here in San Antonio. No factory lines. No mass production. Just honest woodwork and a handshake you can count on.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED WORK ===== -->
+    <section class="section section--alt" id="featured-work" aria-label="Featured furniture pieces">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Featured Work</span>
+          <h2>Recent Custom Builds</h2>
+          <p>Every piece is one of a kind — built for a specific customer, a specific space, and a specific story.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Featured Piece 1 -->
+          <article class="gallery-card fade-in">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Black walnut live edge dining table, 8 feet long, with steel hairpin legs">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: 8ft Black Walnut Dining Table with steel hairpin legs</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">View Details &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Alamo Heights Table</h3>
+              <p class="gallery-card__meta">Black Walnut &bull; 96" &times; 42" &bull; Hairpin Steel Legs</p>
+              <span class="gallery-card__price">$3,200</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Featured Piece 2 -->
+          <article class="gallery-card fade-in" data-delay="100">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Mesquite live edge coffee table with turquoise epoxy river inlay">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Mesquite Coffee Table with Turquoise Epoxy River</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">View Details &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Hill Country River Table</h3>
+              <p class="gallery-card__meta">Mesquite &bull; 54" &times; 28" &bull; Turquoise Epoxy</p>
+              <span class="gallery-card__price">$1,800</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Featured Piece 3 -->
+          <article class="gallery-card fade-in" data-delay="200">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Pecan wood live edge desk for home office, with integrated cable management">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Pecan Live Edge Home Office Desk</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">View Details &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Stone Oak Desk</h3>
+              <p class="gallery-card__meta">Pecan &bull; 60" &times; 30" &bull; Steel Trestle Base</p>
+              <span class="gallery-card__price">$2,100</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Featured Piece 4 -->
+          <article class="gallery-card fade-in" data-delay="300">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Refinished mid-century modern oak dresser with new walnut stain">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Refinished Mid-Century Oak Dresser</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">View Details &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Mid-Century Restoration</h3>
+              <p class="gallery-card__meta">Oak &bull; Full Refinish &bull; New Hardware</p>
+              <span class="gallery-card__price">$800</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center" style="margin-top: var(--space-2xl);">
+          <a href="shop.html" class="btn btn--secondary">See All Our Work &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES OVERVIEW ===== -->
+    <section class="section" id="services" aria-label="Our services">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">What We Build</span>
+          <h2>Custom Furniture &amp; Refinishing in San Antonio</h2>
+          <p>From raw Texas slab to finished masterpiece — or breathing new life into a family heirloom. We do both.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Live Edge Tables -->
+          <div class="service-card fade-in">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <rect x="4" y="6" width="24" height="3" rx="1"/>
+                <line x1="8" y1="9" x2="8" y2="26"/>
+                <line x1="24" y1="9" x2="24" y2="26"/>
+                <line x1="6" y1="26" x2="10" y2="26"/>
+                <line x1="22" y1="26" x2="26" y2="26"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Live Edge Tables</h3>
+            <p class="service-card__text">Dining tables, coffee tables, conference tables — each one built around the natural shape and character of the slab. Walnut, pecan, mesquite, and more.</p>
+            <a href="shop.html" class="service-card__link">Browse Tables &rarr;</a>
+          </div>
+
+          <!-- Service 2: Custom Furniture -->
+          <div class="service-card fade-in" data-delay="100">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <rect x="6" y="4" width="20" height="14" rx="1"/>
+                <line x1="6" y1="10" x2="26" y2="10"/>
+                <rect x="4" y="20" width="10" height="8" rx="1"/>
+                <rect x="18" y="22" width="10" height="6" rx="1"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Custom Desks &amp; Shelving</h3>
+            <p class="service-card__text">Home office desks, floating shelves, wall art, countertops, and bar tops. Tell us what you need and we'll build it to fit your space exactly.</p>
+            <a href="shop.html" class="service-card__link">See Custom Work &rarr;</a>
+          </div>
+
+          <!-- Service 3: Refinishing -->
+          <div class="service-card fade-in" data-delay="200">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M16 4C10 4 6 8 6 14v6h20v-6c0-6-4-10-10-10z"/>
+                <line x1="6" y1="20" x2="26" y2="20"/>
+                <line x1="10" y1="20" x2="10" y2="28"/>
+                <line x1="22" y1="20" x2="22" y2="28"/>
+                <circle cx="16" cy="13" r="2"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Furniture Refinishing</h3>
+            <p class="service-card__text">Got a beat-up family heirloom or a garage-sale gem? We strip, sand, repair, and refinish furniture to bring it back better than new.</p>
+            <a href="shop.html#refinishing" class="service-card__link">Refinishing Services &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOCIAL PROOF / TRUST ===== -->
+    <section class="section section--dark" id="trust" aria-label="Testimonials and trust indicators">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">What Our Customers Say</span>
+          <h2>Built on Trust, Delivered with Pride</h2>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials-grid" style="margin-bottom: var(--space-4xl);">
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-card__text">Rob built us a ten-foot walnut dining table for our new home in Alamo Heights. The grain on this thing is unreal. We've had it six months and every dinner guest asks where we got it.</p>
+            <p class="testimonial-card__author">Marcus &amp; Elena T.</p>
+            <p class="testimonial-card__location">Alamo Heights, San Antonio</p>
+          </div>
+
+          <div class="testimonial-card fade-in" data-delay="100">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-card__text">I brought in my grandmother's old cedar chest — it was in rough shape. Rob restored it beautifully. He even kept the original hardware. It looks like it did in her living room fifty years ago.</p>
+            <p class="testimonial-card__author">Sarah M.</p>
+            <p class="testimonial-card__location">Stone Oak, San Antonio</p>
+          </div>
+
+          <div class="testimonial-card fade-in" data-delay="200">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-card__text">We needed a custom bar top for our restaurant downtown. Rob came out, measured everything, and delivered a mesquite slab that fits the space perfectly. Customers love it.</p>
+            <p class="testimonial-card__author">David R., Owner</p>
+            <p class="testimonial-card__location">Southtown Restaurant, San Antonio</p>
+          </div>
+        </div>
+
+        <!-- Trust Badges -->
+        <div class="trust-badges fade-in">
+          <div class="trust-badge">
+            <div class="trust-badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28 6l6 4h8v8l4 6-4 6v8h-8l-6 4-6-4h-8v-8l-4-6 4-6v-8h8l6-4z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M20 28l6 6 10-12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="trust-badge__label">Veteran Owned</span>
+          </div>
+
+          <div class="trust-badge">
+            <div class="trust-badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28 8C18 8 10 16 10 28h36C46 16 38 8 28 8z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <rect x="8" y="28" width="40" height="4" rx="1" stroke="currentColor" stroke-width="2" fill="none"/>
+                <line x1="16" y1="32" x2="16" y2="46" stroke="currentColor" stroke-width="2"/>
+                <line x1="40" y1="32" x2="40" y2="46" stroke="currentColor" stroke-width="2"/>
+                <line x1="12" y1="46" x2="44" y2="46" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <span class="trust-badge__label">Handcrafted in San&nbsp;Antonio</span>
+          </div>
+
+          <div class="trust-badge">
+            <div class="trust-badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="28" cy="28" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M28 16v12l8 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="trust-badge__label">Every Piece One&nbsp;of&nbsp;a&nbsp;Kind</span>
+          </div>
+
+          <div class="trust-badge">
+            <div class="trust-badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 46V18l14-10 14 10v28" stroke="currentColor" stroke-width="2" fill="none"/>
+                <rect x="22" y="30" width="12" height="16" stroke="currentColor" stroke-width="2" fill="none"/>
+                <rect x="20" y="22" width="6" height="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              </svg>
+            </div>
+            <span class="trust-badge__label">Texas Hardwoods</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECONDARY CTA ===== -->
+    <section class="cta-section" aria-label="Call to action">
+      <div class="container">
+        <h2 class="fade-in">Ready to Bring Your Vision to Life?</h2>
+        <p class="fade-in">Whether you've got a napkin sketch or a fully formed idea, we'd love to hear about your project. Every custom piece starts with a conversation.</p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="quote.html" class="btn btn--light btn--lg fade-in">Get Your Free Quote</a>
+          <a href="contact.html" class="btn btn--secondary btn--lg fade-in" style="border-color: var(--color-cream); color: var(--color-cream);">Let's Talk &rarr;</a>
+        </div>
+      </div>
+    </section>
+<!-- /wp:html -->]]></content:encoded>
+        <excerpt:encoded><![CDATA[Handcrafted live edge furniture in San Antonio, TX. Custom tables, desks, shelving & refinishing by veteran craftsman Rob Faulkner. Get a free quote today.]]></excerpt:encoded>
+        <wp:post_id>1</wp:post_id>
+        <wp:post_date><![CDATA[2026-03-10 05:35:01]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_date_gmt>
+        <wp:post_modified><![CDATA[2026-03-10 05:35:01]]></wp:post_modified>
+        <wp:post_modified_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_modified_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[home]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>1</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Handcrafted live edge furniture in San Antonio, TX. Custom tables, desks, shelving & refinishing by veteran craftsman Rob Faulkner. Get a free quote today.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-title]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Alamo Live Edge Furniture Co. — Handcrafted in San Antonio, TX]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-description]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Custom live edge furniture built by hand in San Antonio. Tables, desks, shelving, countertops & furniture refinishing. Veteran-owned.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+            <wp:meta_value><![CDATA[live edge furniture San Antonio]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_0]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "FurnitureStore",
+    "name": "Alamo Live Edge Furniture Co.",
+    "description": "Handcrafted live edge furniture and custom woodwork in San Antonio, TX. Veteran-owned.",
+    "url": "https://alamoliveedge.com",
+    "telephone": "(210) 555-0178",
+    "email": "rob@alamoliveedge.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Antonio",
+      "addressRegion": "TX",
+      "postalCode": "78201",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "29.4241",
+      "longitude": "-98.4936"
+    },
+    "areaServed": [
+      "San Antonio", "Alamo Heights", "Stone Oak", "The Dominion",
+      "Boerne", "New Braunfels", "Helotes", "Bulverde", "Texas Hill Country"
+    ],
+    "priceRange": "$500-$5000+",
+    "openingHours": "Mo-Fr 08:00-17:00, Sa 09:00-14:00",
+    "founder": {
+      "@type": "Person",
+      "name": "Rob Faulkner"
+    },
+    "sameAs": [
+      "https://www.facebook.com/alamoliveedge",
+      "https://www.instagram.com/alamoliveedge"
+    ],
+    "image": "https://alamoliveedge.com/images/workshop.jpg"
+  }]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_1]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://alamoliveedge.com/"
+      }
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Shop]]></title>
+        <link>https://alamoliveedge.com/shop</link>
+        <pubDate>Tue, 10 Mar 2026 05:35:01 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://alamoliveedge.com/?page_id=2</guid>
+        <description></description>
+        <content:encoded><![CDATA[<!-- wp:html -->
+<!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Live Edge Furniture &amp; Custom Woodwork</h1>
+        <p>Browse our collection of handcrafted tables, desks, shelving, and refinished pieces — each one built by hand in San Antonio, TX.</p>
+      </div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <ol class="breadcrumbs__list" role="list">
+          <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Home</a></li>
+          <li class="breadcrumbs__separator" aria-hidden="true">/</li>
+          <li class="breadcrumbs__item"><span class="breadcrumbs__current" aria-current="page">Shop</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== FILTERABLE GALLERY ===== -->
+    <section class="section" id="gallery" aria-label="Furniture gallery">
+      <div class="container">
+
+        <!-- Filters -->
+        <div class="shop-filters" role="group" aria-label="Filter furniture by category">
+          <button class="shop-filter-btn shop-filter-btn--active" data-filter="all" type="button">All Pieces</button>
+          <button class="shop-filter-btn" data-filter="dining-tables" type="button">Dining Tables</button>
+          <button class="shop-filter-btn" data-filter="coffee-tables" type="button">Coffee Tables</button>
+          <button class="shop-filter-btn" data-filter="desks" type="button">Desks &amp; Workstations</button>
+          <button class="shop-filter-btn" data-filter="shelving" type="button">Shelving &amp; Wall Art</button>
+          <button class="shop-filter-btn" data-filter="countertops" type="button">Countertops &amp; Bar Tops</button>
+          <button class="shop-filter-btn" data-filter="refinished" type="button">Refinished Pieces</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+
+          <!-- Dining Table 1 -->
+          <article class="gallery-card fade-in" data-category="dining-tables">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Black walnut live edge dining table, 8 feet, with steel hairpin legs, handcrafted in San Antonio TX">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: 8ft Black Walnut Dining Table</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Alamo Heights Table</h3>
+              <p class="gallery-card__meta">Black Walnut &bull; 96" &times; 42" &bull; Hairpin Steel Legs</p>
+              <span class="gallery-card__price">$3,200</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Dining Table 2 -->
+          <article class="gallery-card fade-in" data-category="dining-tables">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Pecan live edge dining table with trestle base, 7 feet long">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: 7ft Pecan Dining Table with Trestle Base</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Dominion Farmhouse</h3>
+              <p class="gallery-card__meta">Texas Pecan &bull; 84" &times; 40" &bull; Trestle Base</p>
+              <span class="gallery-card__price">$2,800</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Coffee Table 1 -->
+          <article class="gallery-card fade-in" data-category="coffee-tables">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Mesquite live edge coffee table with turquoise epoxy river inlay">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Mesquite Coffee Table with Turquoise Epoxy River</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Hill Country River Table</h3>
+              <p class="gallery-card__meta">Mesquite &bull; 54" &times; 28" &bull; Turquoise Epoxy</p>
+              <span class="gallery-card__price">$1,800</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Coffee Table 2 -->
+          <article class="gallery-card fade-in" data-category="coffee-tables">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Cedar round live edge coffee table with X-frame steel legs">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Cedar Round Coffee Table, X-Frame Legs</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Helotes Round</h3>
+              <p class="gallery-card__meta">Texas Cedar &bull; 42" Round &bull; Steel X-Frame</p>
+              <span class="gallery-card__price">$1,200</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Desk 1 -->
+          <article class="gallery-card fade-in" data-category="desks">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Pecan live edge desk with steel trestle base for home office">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Pecan Live Edge Home Office Desk</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Stone Oak Desk</h3>
+              <p class="gallery-card__meta">Pecan &bull; 60" &times; 30" &bull; Steel Trestle Base</p>
+              <span class="gallery-card__price">$2,100</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Desk 2 -->
+          <article class="gallery-card fade-in" data-category="desks">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Walnut standing desk with adjustable height steel frame">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Walnut Standing Desk with Adjustable Frame</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Executive Slab</h3>
+              <p class="gallery-card__meta">Black Walnut &bull; 72" &times; 32" &bull; Adjustable Frame</p>
+              <span class="gallery-card__price">$2,600</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Shelving 1 -->
+          <article class="gallery-card fade-in" data-category="shelving">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Set of three floating live edge oak shelves with hidden brackets">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Live Edge Oak Floating Shelf Set (3 shelves)</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Floating Shelf Trio</h3>
+              <p class="gallery-card__meta">White Oak &bull; 36", 30", 24" &bull; Hidden Brackets</p>
+              <span class="gallery-card__price">$650</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Shelving 2 / Wall Art -->
+          <article class="gallery-card fade-in" data-category="shelving">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Large mesquite wall art piece with natural bark edge and clear epoxy">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Mesquite Wall Art with Bark Edge &amp; Epoxy</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Mesquite Wall Statement</h3>
+              <p class="gallery-card__meta">Mesquite &bull; 48" &times; 18" &bull; Clear Epoxy &amp; Bark Edge</p>
+              <span class="gallery-card__price">$900</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Countertop / Bar Top -->
+          <article class="gallery-card fade-in" data-category="countertops">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Live edge pecan bar top installed in San Antonio restaurant">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Pecan Bar Top — Southtown Restaurant Install</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Southtown Bar Top</h3>
+              <p class="gallery-card__meta">Texas Pecan &bull; 12ft &times; 26" &bull; Commercial Grade Finish</p>
+              <span class="gallery-card__price">Request Quote</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Countertop 2 -->
+          <article class="gallery-card fade-in" data-category="countertops">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Live edge walnut kitchen island countertop with waterfall edge">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Walnut Kitchen Island with Waterfall Edge</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Waterfall Kitchen Island</h3>
+              <p class="gallery-card__meta">Black Walnut &bull; 72" &times; 36" &bull; Waterfall Edge</p>
+              <span class="gallery-card__price">$4,200</span>
+              <a href="quote.html" class="gallery-card__link">Inquire About This Piece &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Refinished 1 -->
+          <article class="gallery-card fade-in" data-category="refinished" id="refinishing">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Refinished mid-century modern oak dresser with new walnut stain">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Refinished Mid-Century Oak Dresser</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Mid-Century Dresser Restoration</h3>
+              <p class="gallery-card__meta">Oak &bull; Full Strip &amp; Refinish &bull; New Hardware</p>
+              <span class="gallery-card__price">$800</span>
+              <a href="quote.html" class="gallery-card__link">Get a Refinishing Quote &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Refinished 2 -->
+          <article class="gallery-card fade-in" data-category="refinished">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Restored antique cedar hope chest with original hardware preserved">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Restored Antique Cedar Hope Chest</span>
+              </div>
+              <div class="gallery-card__overlay">
+                <span class="gallery-card__overlay-text">Inquire About This Piece &rarr;</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Heirloom Cedar Chest Revival</h3>
+              <p class="gallery-card__meta">Cedar &bull; Full Restoration &bull; Original Hardware Preserved</p>
+              <span class="gallery-card__price">$600</span>
+              <a href="quote.html" class="gallery-card__link">Get a Refinishing Quote &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CUSTOM BUILD CTA ===== -->
+    <section class="section section--alt" aria-label="Custom furniture inquiry">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Something Different?</span>
+          <h2>Don't See Exactly What You Want?</h2>
+          <p>Most of our work is custom-built to order. If you have a specific size, wood species, or design in mind, let's talk. We love building pieces that don't exist yet.</p>
+          <div style="margin-top: var(--space-xl);">
+            <a href="quote.html" class="btn btn--primary btn--lg">Let's Build It Together</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW OUR PROCESS WORKS ===== -->
+    <section class="section" id="process" aria-label="Our custom furniture process">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">How It Works</span>
+          <h2>From First Conversation to Final Delivery</h2>
+          <p>Building custom furniture shouldn't be complicated. Here's how we keep it simple.</p>
+        </div>
+
+        <div class="process-steps">
+          <div class="process-step fade-in">
+            <div class="process-step__number">1</div>
+            <h3 class="process-step__title">Consult</h3>
+            <p class="process-step__text">Tell us about your space, your style, and what you're looking for. We'll talk through wood options, dimensions, and design ideas. No pressure, no obligation.</p>
+          </div>
+
+          <div class="process-step fade-in" data-delay="100">
+            <div class="process-step__number">2</div>
+            <h3 class="process-step__title">Design</h3>
+            <p class="process-step__text">We'll pick the perfect slab, finalize the design details — legs, finish, edge treatment — and give you a clear quote with no surprise costs.</p>
+          </div>
+
+          <div class="process-step fade-in" data-delay="200">
+            <div class="process-step__number">3</div>
+            <h3 class="process-step__title">Build</h3>
+            <p class="process-step__text">Your piece gets built by hand in our San Antonio workshop. We'll send progress photos along the way so you can watch it come together.</p>
+          </div>
+
+          <div class="process-step fade-in" data-delay="300">
+            <div class="process-step__number">4</div>
+            <h3 class="process-step__title">Deliver</h3>
+            <p class="process-step__text">We deliver to your home or business anywhere in the San Antonio metro and surrounding Hill Country area. Setup and placement included.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" aria-label="Call to action">
+      <div class="container">
+        <h2 class="fade-in">Your Table is Waiting to Be Built</h2>
+        <p class="fade-in">Every piece in our shop started as a conversation. Start yours today — tell us about your dream piece and we'll make it real.</p>
+        <a href="quote.html" class="btn btn--light btn--lg fade-in">Get Your Free Quote</a>
+      </div>
+    </section>
+<!-- /wp:html -->]]></content:encoded>
+        <excerpt:encoded><![CDATA[Shop handcrafted live edge dining tables, coffee tables, desks, shelving & refinished furniture in San Antonio. Epoxy river tables, custom wood pieces & more.]]></excerpt:encoded>
+        <wp:post_id>2</wp:post_id>
+        <wp:post_date><![CDATA[2026-03-10 05:35:01]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_date_gmt>
+        <wp:post_modified><![CDATA[2026-03-10 05:35:01]]></wp:post_modified>
+        <wp:post_modified_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_modified_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[shop]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>2</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Shop handcrafted live edge dining tables, coffee tables, desks, shelving & refinished furniture in San Antonio. Epoxy river tables, custom wood pieces & more.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-title]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Shop Live Edge Furniture — Alamo Live Edge Furniture Co.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-description]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Browse handcrafted live edge tables, desks, shelving & refinished furniture. Each piece is one of a kind, built in San Antonio, TX.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+            <wp:meta_value><![CDATA[live edge dining table San Antonio]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_0]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://alamoliveedge.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Shop",
+        "item": "https://alamoliveedge.com/shop.html"
+      }
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_1]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Live Edge Furniture Collection",
+    "description": "Handcrafted live edge furniture and custom woodwork available from Alamo Live Edge Furniture Co. in San Antonio, TX.",
+    "numberOfItems": 12,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "Black Walnut Live Edge Dining Table",
+          "description": "8-foot black walnut live edge dining table with steel hairpin legs. Handcrafted in San Antonio, TX.",
+          "brand": "Alamo Live Edge Furniture Co.",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "3200",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "Mesquite Epoxy River Coffee Table",
+          "description": "Mesquite live edge coffee table with turquoise epoxy river inlay. One-of-a-kind piece.",
+          "brand": "Alamo Live Edge Furniture Co.",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "1800",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      }
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[About]]></title>
+        <link>https://alamoliveedge.com/about</link>
+        <pubDate>Tue, 10 Mar 2026 05:35:01 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://alamoliveedge.com/?page_id=3</guid>
+        <description></description>
+        <content:encoded><![CDATA[<!-- wp:html -->
+<!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>About Alamo Live Edge Furniture Co.</h1>
+        <p>The story of a Navy veteran, a San Antonio workshop, and the belief that great furniture starts with respecting the wood.</p>
+      </div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <ol class="breadcrumbs__list" role="list">
+          <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Home</a></li>
+          <li class="breadcrumbs__separator" aria-hidden="true">/</li>
+          <li class="breadcrumbs__item"><span class="breadcrumbs__current" aria-current="page">About</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== ROB'S STORY ===== -->
+    <section class="section" aria-label="Rob Faulkner's story">
+      <div class="container">
+        <div class="about-intro">
+          <div class="about-intro__image fade-in-left" role="img" aria-label="Rob Faulkner in his San Antonio woodworking workshop, shaping a live edge walnut slab">
+            Photo: Rob Faulkner in his workshop, hands on a walnut slab, sawdust on his apron. Natural light from the shop windows. San Antonio, TX.
+          </div>
+
+          <div class="about-intro__content fade-in-right">
+            <span class="section-label">The Man Behind the Work</span>
+            <h2>From Navy Decks to Workshop Floors</h2>
+            <p>I spent years in the Navy learning that the details matter — that precision isn't optional and shortcuts always catch up with you. When I came home to San Antonio, I needed something to do with my hands. Something real.</p>
+            <p>A buddy gave me a beat-up pecan slab he'd been storing in his garage. I had a borrowed sander and a YouTube tutorial. That first table was rough. But when I ran my hand across the finished surface and felt the grain under my fingers — the natural curves, the knots, the story of that tree — I knew I'd found the thing I was supposed to be doing.</p>
+            <p>That was the start. I've been building live edge furniture full-time since then, right here in San Antonio. Every piece I make carries the same discipline I learned in the service: measure twice, don't rush the work, and never deliver anything you wouldn't put in your own home.</p>
+            <p><strong>— Rob Faulkner, Owner &amp; Craftsman</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PHILOSOPHY ===== -->
+    <section class="section section--alt" aria-label="Our philosophy">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">How We Work</span>
+          <h2>Our Philosophy</h2>
+          <p>Three principles guide everything we build.</p>
+        </div>
+
+        <div class="philosophy-grid">
+          <div class="philosophy-card fade-in">
+            <h3>Honor the Wood</h3>
+            <p>Every slab has a story — decades of Texas sun, Hill Country rain, and deep roots. We don't try to force the wood into a shape. We follow the natural edge, highlight the character, and let the grain speak for itself. The best thing a craftsman can do is get out of the wood's way.</p>
+          </div>
+
+          <div class="philosophy-card fade-in" data-delay="100">
+            <h3>Build to Last</h3>
+            <p>We don't build furniture for right now. We build it for your kids and your grandkids. Every joint is solid, every finish is chosen for durability, and every detail is checked twice. A table from our shop should be the last dining table you ever buy.</p>
+          </div>
+
+          <div class="philosophy-card fade-in" data-delay="200">
+            <h3>Keep It Personal</h3>
+            <p>When you work with us, you're talking to the person who's actually going to build your piece. No sales team, no middleman, no call center. Rob answers the phone, Rob picks your slab, and Rob delivers it to your door. That's how it should be.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY LIVE EDGE? ===== -->
+    <section class="section" aria-label="Why live edge furniture">
+      <div class="container">
+        <div class="live-edge-grid">
+          <div class="fade-in-left">
+            <span class="section-label">For the Curious</span>
+            <h2>Why Live Edge?</h2>
+            <p>If you're new to live edge furniture, here's the short version: "live edge" means the natural outer edge of the tree is preserved in the finished piece. Instead of milling a board into a perfect rectangle, we keep the organic curves, the bark line, and the raw character of the slab.</p>
+            <p>The result is a piece of furniture that's genuinely unique — no two slabs are the same, so no two tables are the same. You get the full width of the tree, with all its knots, grain patterns, and natural beauty on display.</p>
+            <p>Live edge works in just about any style of home. Pair a walnut slab with sleek steel legs for a modern look, or set it on rustic trestle legs for something more traditional. The wood adapts because the wood is timeless.</p>
+            <p>We work primarily with <strong>Texas hardwoods</strong> — black walnut, pecan, mesquite, white oak, and cedar. Each species has its own personality: mesquite is hard as iron with wild grain, pecan is warm and versatile, walnut is the dark, elegant showstopper. We'll help you pick the right one for your space.</p>
+            <p><a href="faq.html" class="btn btn--secondary" style="margin-top: var(--space-md);">Read Our Full FAQ &rarr;</a></p>
+          </div>
+
+          <div class="live-edge-grid__image fade-in-right" role="img" aria-label="Close-up of a live edge walnut slab showing natural bark, grain patterns, and natural curves">
+            Photo: Close-up of a live edge slab — bark edge, visible grain patterns, natural curves. The texture and depth of the wood should be the focal point.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== THE WORKSHOP ===== -->
+    <section class="section section--alt" aria-label="Our San Antonio workshop">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Where It Happens</span>
+          <h2>The Workshop</h2>
+          <p>Our San Antonio shop is where raw slabs become heirloom furniture. It's not fancy — just good tools, good wood, and plenty of sawdust.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-card fade-in">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Wide shot of Alamo Live Edge workshop in San Antonio showing wood slabs, tools, and work tables">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Wide shot of the workshop — slabs leaning against walls, work table in center, tools hanging</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Main Shop</h3>
+              <p class="gallery-card__meta">Where slabs are flattened, joined, and shaped</p>
+            </div>
+          </div>
+
+          <div class="gallery-card fade-in" data-delay="100">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Wood slab inventory showing various Texas hardwood species stacked and drying">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Slab inventory — walnut, pecan, mesquite slabs stacked and drying</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">Slab Selection</h3>
+              <p class="gallery-card__meta">Texas hardwoods seasoning and ready for your project</p>
+            </div>
+          </div>
+
+          <div class="gallery-card fade-in" data-delay="200">
+            <div class="gallery-card__image">
+              <div class="gallery-card__placeholder" role="img" aria-label="Finishing area showing a table being coated with oil finish, warm workshop lighting">
+                <span class="gallery-card__placeholder-icon" aria-hidden="true">&#9744;</span>
+                <span>Photo: Finishing area — table getting its final coat, warm light, detail focus</span>
+              </div>
+            </div>
+            <div class="gallery-card__body">
+              <h3 class="gallery-card__title">The Finishing Room</h3>
+              <p class="gallery-card__meta">Where every piece gets its final hand-rubbed finish</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VETERAN OWNED ===== -->
+    <section class="section section--dark" aria-label="Veteran-owned business">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Veteran-Owned &amp; Proud</span>
+          <h2>Service Doesn't End When You Take Off the Uniform</h2>
+          <p>The Navy taught me that the work matters, the team matters, and you always leave things better than you found them. I bring that same mindset to every piece of furniture I build and every customer I work with. When you support Alamo Live Edge, you're supporting a veteran-owned small business right here in San Antonio. And that means a lot to me.</p>
+        </div>
+
+        <div class="trust-badges fade-in">
+          <div class="trust-badge">
+            <div class="trust-badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28 6l6 4h8v8l4 6-4 6v8h-8l-6 4-6-4h-8v-8l-4-6 4-6v-8h8l6-4z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M20 28l6 6 10-12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="trust-badge__label">U.S. Navy Veteran</span>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 46V18l14-10 14 10v28" stroke="currentColor" stroke-width="2" fill="none"/>
+                <rect x="22" y="30" width="12" height="16" stroke="currentColor" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <span class="trust-badge__label">San Antonio Local</span>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="28" cy="28" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M22 28l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="trust-badge__label">Built with Integrity</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" aria-label="Call to action">
+      <div class="container">
+        <h2 class="fade-in">Want to See What We Can Build for You?</h2>
+        <p class="fade-in">Every project starts with a conversation. Tell us about your space, your style, and what you're dreaming up — we'll take it from there.</p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="quote.html" class="btn btn--light btn--lg fade-in">Get Your Free Quote</a>
+          <a href="shop.html" class="btn btn--secondary btn--lg fade-in" style="border-color: var(--color-cream); color: var(--color-cream);">Browse Our Work &rarr;</a>
+        </div>
+      </div>
+    </section>
+<!-- /wp:html -->]]></content:encoded>
+        <excerpt:encoded><![CDATA[Meet Rob Faulkner — Navy veteran and San Antonio woodworker behind Alamo Live Edge Furniture Co. Handcrafted custom furniture with military discipline.]]></excerpt:encoded>
+        <wp:post_id>3</wp:post_id>
+        <wp:post_date><![CDATA[2026-03-10 05:35:01]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_date_gmt>
+        <wp:post_modified><![CDATA[2026-03-10 05:35:01]]></wp:post_modified>
+        <wp:post_modified_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_modified_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[about]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>3</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Meet Rob Faulkner — Navy veteran and San Antonio woodworker behind Alamo Live Edge Furniture Co. Handcrafted custom furniture with military discipline.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-title]]></wp:meta_key>
+            <wp:meta_value><![CDATA[About Rob Faulkner — Alamo Live Edge Furniture Co.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-description]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Navy veteran turned master woodworker. Learn the story behind San Antonio's Alamo Live Edge Furniture Co.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+            <wp:meta_value><![CDATA[about Alamo Live Edge Furniture]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_0]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://alamoliveedge.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About",
+        "item": "https://alamoliveedge.com/about.html"
+      }
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Get a Quote]]></title>
+        <link>https://alamoliveedge.com/get-a-quote</link>
+        <pubDate>Tue, 10 Mar 2026 05:35:01 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://alamoliveedge.com/?page_id=4</guid>
+        <description></description>
+        <content:encoded><![CDATA[<!-- wp:html -->
+<!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Let's Build Something Beautiful Together</h1>
+        <p>Tell us about your project and we'll put together a free, no-obligation quote. Custom furniture starts here.</p>
+      </div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <ol class="breadcrumbs__list" role="list">
+          <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Home</a></li>
+          <li class="breadcrumbs__separator" aria-hidden="true">/</li>
+          <li class="breadcrumbs__item"><span class="breadcrumbs__current" aria-current="page">Get a Quote</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== QUOTE FORM SECTION ===== -->
+    <section class="section" aria-label="Request a quote form">
+      <div class="container">
+        <div class="quote-layout">
+
+          <!-- Form -->
+          <div>
+            <form id="quote-form" data-validate aria-label="Custom furniture quote request form">
+              <h2 style="margin-bottom: var(--space-xl);">Tell Us About Your Project</h2>
+
+              <!-- Name & Email -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="quote-name" class="form-label form-label--required">Your Name</label>
+                  <input type="text" id="quote-name" name="name" class="form-input" placeholder="First and last name" required autocomplete="name">
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="quote-email" class="form-label form-label--required">Email Address</label>
+                  <input type="email" id="quote-email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+                  <span class="form-error" role="alert"></span>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="quote-phone" class="form-label">Phone Number</label>
+                <input type="tel" id="quote-phone" name="phone" class="form-input" placeholder="(210) 555-1234" autocomplete="tel">
+                <span class="form-hint">Optional — but helpful if you'd rather chat by phone or text.</span>
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <!-- Project Type -->
+              <div class="form-group">
+                <label for="quote-project" class="form-label form-label--required">Project Type</label>
+                <select id="quote-project" name="project_type" class="form-select" required>
+                  <option value="">Select your project type...</option>
+                  <option value="dining-table">Dining Table</option>
+                  <option value="coffee-table">Coffee Table</option>
+                  <option value="desk">Desk / Workstation</option>
+                  <option value="shelving">Shelving / Wall Art</option>
+                  <option value="countertop">Countertop / Bar Top</option>
+                  <option value="refinishing">Refinishing / Restoration</option>
+                  <option value="other">Other / Not Sure Yet</option>
+                </select>
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <!-- Wood Type -->
+              <div class="form-group">
+                <label for="quote-wood" class="form-label">Preferred Wood Type</label>
+                <select id="quote-wood" name="wood_type" class="form-select">
+                  <option value="">Select a wood species...</option>
+                  <option value="walnut">Black Walnut</option>
+                  <option value="pecan">Pecan</option>
+                  <option value="mesquite">Mesquite</option>
+                  <option value="oak">White Oak</option>
+                  <option value="cedar">Cedar</option>
+                  <option value="not-sure">Not Sure / Surprise Me</option>
+                </select>
+                <span class="form-hint">Don't know what wood to choose? No worries — we'll help you pick the right one during your consultation.</span>
+              </div>
+
+              <!-- Dimensions -->
+              <div class="form-group">
+                <label for="quote-dimensions" class="form-label">Approximate Dimensions or Description</label>
+                <input type="text" id="quote-dimensions" name="dimensions" class="form-input" placeholder="e.g., 8ft dining table for 8 people, 5ft desk, etc.">
+                <span class="form-hint">A rough idea is fine — we'll work out the exact details together.</span>
+              </div>
+
+              <!-- Budget & Timeline -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="quote-budget" class="form-label">Budget Range</label>
+                  <select id="quote-budget" name="budget" class="form-select">
+                    <option value="">Select a range...</option>
+                    <option value="under-500">Under $500</option>
+                    <option value="500-1000">$500 – $1,000</option>
+                    <option value="1000-2500">$1,000 – $2,500</option>
+                    <option value="2500-5000">$2,500 – $5,000</option>
+                    <option value="5000-plus">$5,000+</option>
+                    <option value="not-sure">Not Sure Yet</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="quote-timeline" class="form-label">Timeline</label>
+                  <select id="quote-timeline" name="timeline" class="form-select">
+                    <option value="">When do you need it?</option>
+                    <option value="no-rush">No Rush — Take Your Time</option>
+                    <option value="1-2-months">1 – 2 Months</option>
+                    <option value="3-4-months">3 – 4 Months</option>
+                    <option value="specific-date">Need It by a Specific Date</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Inspiration Photos -->
+              <div class="form-group">
+                <label for="quote-files" class="form-label">Inspiration Photos</label>
+                <input type="file" id="quote-files" name="inspiration_photos" class="form-file" accept="image/*" multiple>
+                <span class="form-hint">Upload photos of styles you like, your space, or anything that gives us a feel for your vision. JPG, PNG up to 10MB each.</span>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="quote-message" class="form-label">Additional Details</label>
+                <textarea id="quote-message" name="message" class="form-textarea" rows="5" placeholder="Tell us anything else about your project — design preferences, how you'll use the piece, special requests, or questions you have."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">Send My Quote Request</button>
+            </form>
+
+            <!-- Success Message -->
+            <div class="form-success" role="status">
+              <div class="form-success__icon" aria-hidden="true">&#10003;</div>
+              <h3>Quote Request Received!</h3>
+              <p>Thanks for reaching out. Rob will review your project details and get back to you within 24-48 hours — usually sooner. Keep an eye on your inbox (and check your spam folder, just in case).</p>
+              <p style="margin-top: var(--space-lg);"><a href="shop.html" class="btn btn--secondary">Browse Our Work While You Wait &rarr;</a></p>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="quote-sidebar" aria-label="What to expect after submitting">
+            <h3>What to Expect</h3>
+
+            <div class="quote-sidebar__item">
+              <div class="quote-sidebar__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 6v6l4 2"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Quick Response</h4>
+                <p>We respond to most quote requests within 24-48 hours. You'll hear directly from Rob — not an automated system.</p>
+              </div>
+            </div>
+
+            <div class="quote-sidebar__item">
+              <div class="quote-sidebar__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Free Consultation</h4>
+                <p>We'll schedule a phone call or in-person visit to discuss your project in detail. We'll talk wood selection, design options, and answer any questions.</p>
+              </div>
+            </div>
+
+            <div class="quote-sidebar__item">
+              <div class="quote-sidebar__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M9 12l2 2 4-4"/>
+                  <path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/>
+                </svg>
+              </div>
+              <div>
+                <h4>No Obligation</h4>
+                <p>Getting a quote is completely free. There's zero pressure to commit. We want you to feel confident before moving forward.</p>
+              </div>
+            </div>
+
+            <div class="quote-sidebar__item">
+              <div class="quote-sidebar__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <rect x="2" y="3" width="20" height="18" rx="2"/>
+                  <line x1="2" y1="9" x2="22" y2="9"/>
+                  <line x1="9" y1="21" x2="9" y2="9"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Clear Pricing</h4>
+                <p>Your quote will include a detailed breakdown — materials, labor, finish, delivery. No hidden fees, no surprises at the end.</p>
+              </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid var(--color-border); margin: var(--space-lg) 0;">
+
+            <p style="font-size: var(--font-size-sm); color: var(--color-text-muted);">Prefer to talk? Call or text Rob directly at <a href="tel:+12105550178" style="font-weight: 600;">(210) 555-0178</a> or email <a href="mailto:rob@alamoliveedge.com" style="font-weight: 600;">rob@alamoliveedge.com</a>.</p>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+<!-- /wp:html -->]]></content:encoded>
+        <excerpt:encoded><![CDATA[Request a free custom furniture quote from Alamo Live Edge Furniture Co. in San Antonio. Live edge tables, desks, countertops & refinishing — no obligation.]]></excerpt:encoded>
+        <wp:post_id>4</wp:post_id>
+        <wp:post_date><![CDATA[2026-03-10 05:35:01]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_date_gmt>
+        <wp:post_modified><![CDATA[2026-03-10 05:35:01]]></wp:post_modified>
+        <wp:post_modified_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_modified_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[get-a-quote]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>4</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Request a free custom furniture quote from Alamo Live Edge Furniture Co. in San Antonio. Live edge tables, desks, countertops & refinishing — no obligation.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-title]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Get a Free Quote — Alamo Live Edge Furniture Co.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-description]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Request a free, no-obligation quote for custom live edge furniture or refinishing in San Antonio, TX.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+            <wp:meta_value><![CDATA[custom furniture quote San Antonio]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_0]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://alamoliveedge.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Get a Quote",
+        "item": "https://alamoliveedge.com/quote.html"
+      }
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[FAQ]]></title>
+        <link>https://alamoliveedge.com/faq</link>
+        <pubDate>Tue, 10 Mar 2026 05:35:01 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://alamoliveedge.com/?page_id=5</guid>
+        <description></description>
+        <content:encoded><![CDATA[<!-- wp:html -->
+<!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Frequently Asked Questions About Live Edge Furniture</h1>
+        <p>Everything you need to know about our custom furniture, process, pricing, and care — straight from the workshop.</p>
+      </div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <ol class="breadcrumbs__list" role="list">
+          <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Home</a></li>
+          <li class="breadcrumbs__separator" aria-hidden="true">/</li>
+          <li class="breadcrumbs__item"><span class="breadcrumbs__current" aria-current="page">FAQ</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== FAQ CONTENT ===== -->
+    <section class="section" aria-label="Frequently asked questions">
+      <div class="container container--narrow">
+
+        <!-- Category 1: About Live Edge Furniture -->
+        <div class="faq-section fade-in">
+          <h2 class="faq-section__title">About Live Edge Furniture</h2>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>What is live edge furniture?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Live edge furniture preserves the natural outer edge of the tree in the finished piece. Instead of cutting the wood into a uniform rectangle, we keep the organic curves, bark line, and raw character of the slab. The result is a one-of-a-kind piece that showcases the tree's natural beauty — knots, grain patterns, and all. No two live edge pieces are ever the same, which is a big part of their appeal.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>What types of wood do you use?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>We specialize in Texas hardwoods, each with its own personality:</p>
+              <ul>
+                <li><strong>Black Walnut:</strong> Rich dark tones, dramatic grain patterns. The showstopper of hardwoods.</li>
+                <li><strong>Pecan:</strong> Warm golden hues with great character. Versatile and beautiful in any setting.</li>
+                <li><strong>Mesquite:</strong> Extremely hard and durable with wild, unpredictable grain. A true Texas native.</li>
+                <li><strong>White Oak:</strong> Light, strong, and classic. Excellent for modern or traditional designs.</li>
+                <li><strong>Cedar:</strong> Aromatic with warm reddish tones. Naturally resistant to moisture and insects.</li>
+              </ul>
+              <p>We also work with other species on request. If you have a specific wood in mind, just ask.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>How do you source your wood?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>We source our slabs from local Texas sawmills and suppliers. Whenever possible, we use salvaged and reclaimed wood — trees that were taken down due to storms, land clearing, or natural end of life. This gives wood a second life as something beautiful and functional. We also maintain relationships with arborists in the San Antonio and Hill Country area who contact us when notable trees become available.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Is live edge furniture durable for everyday use?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Absolutely. Live edge furniture is built from thick, solid hardwood slabs — these are substantial, heavy pieces of wood that are naturally strong and durable. We apply commercial-grade finishes (polyurethane, hardwax oil, or epoxy, depending on the piece) that protect against scratches, water rings, and daily wear. Our dining tables are built for family dinners, homework sessions, and holiday gatherings — not just looking pretty.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>How do I care for and maintain my live edge piece?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Day-to-day care is simple:</p>
+              <ul>
+                <li>Wipe down with a soft, damp cloth. Dry with a clean towel.</li>
+                <li>Avoid harsh chemical cleaners — a little mild soap and water is all you need.</li>
+                <li>Use coasters and trivets for hot dishes, cold drinks, or wet items.</li>
+                <li>Keep out of direct, prolonged sunlight if possible (it can lighten the wood over time).</li>
+              </ul>
+              <p>Depending on your finish type, we recommend a maintenance coat of oil or wax every 6-12 months. We include specific care instructions with every piece we deliver, tailored to the exact finish we used.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Custom Orders & Process -->
+        <div class="faq-section fade-in">
+          <h2 class="faq-section__title">Custom Orders &amp; Process</h2>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>How does the custom order process work?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Our process is straightforward:</p>
+              <ul>
+                <li><strong>1. Consultation:</strong> You tell us what you need — type of piece, size, style, and any preferences. We can do this by phone, email, or in person at the shop.</li>
+                <li><strong>2. Design &amp; Quote:</strong> We select the perfect slab, finalize design details (legs, finish, edge treatment), and provide a detailed quote.</li>
+                <li><strong>3. Build:</strong> Once you approve the quote and place your deposit, we get to work. We'll send progress photos along the way.</li>
+                <li><strong>4. Delivery:</strong> We deliver to your door, set it up, and make sure you're completely happy with the finished piece.</li>
+              </ul>
+              <p>Start the process by <a href="quote.html">requesting a free quote</a>.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>How long does a custom piece take to build?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>It depends on the complexity of the project:</p>
+              <ul>
+                <li><strong>Simple pieces</strong> (floating shelves, small tables): 2-4 weeks</li>
+                <li><strong>Standard custom pieces</strong> (dining tables, desks, coffee tables): 4-8 weeks</li>
+                <li><strong>Complex projects</strong> (epoxy river tables, large commercial pieces): 8-12 weeks</li>
+                <li><strong>Refinishing:</strong> 2-4 weeks depending on the condition and scope</li>
+              </ul>
+              <p>We don't rush. Good wood work takes time, and we'd rather deliver a piece you'll love for decades than cut corners to meet a deadline. That said, we always provide a clear timeline with your quote and keep you updated along the way.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Can I choose my own wood slab?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Yes! If you'd like to visit the shop and hand-pick your slab, you're welcome to come by. We'll walk you through what we have in inventory and explain the characteristics of each piece — grain pattern, color variation, structural integrity, and how it'll look once finished. Many of our customers find this to be one of the best parts of the process. Just give us a call to schedule a visit.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Do you offer design consultations?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Absolutely — and they're free. Whether you know exactly what you want or you're starting from scratch, we'll work with you to figure out the right piece for your space. We can discuss wood species, dimensions, leg styles, finish options, and how the piece will fit into your room. You can bring photos, sketches, or just a rough idea — we'll take it from there.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Can you match existing furniture or decor in my home?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>We can get pretty close. If you have specific stain colors, wood tones, or design elements you want us to match, send us photos and we'll do our best to complement your existing pieces. Keep in mind that natural wood always has variation — no two slabs are identical — but we can select wood species and finishes that harmonize with what you already have.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: Pricing & Payment -->
+        <div class="faq-section fade-in">
+          <h2 class="faq-section__title">Pricing &amp; Payment</h2>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>How much does a custom live edge table cost?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Pricing depends on the wood species, slab size, design complexity, and finish. Here are some general ranges to give you an idea:</p>
+              <ul>
+                <li><strong>Coffee tables:</strong> $800 – $1,500</li>
+                <li><strong>Dining tables:</strong> $1,800 – $5,000+</li>
+                <li><strong>Desks:</strong> $1,500 – $3,000</li>
+                <li><strong>Floating shelves:</strong> $150 – $400 each</li>
+                <li><strong>Countertops &amp; bar tops:</strong> $1,500 – $4,500+ (depends heavily on size)</li>
+                <li><strong>Refinishing projects:</strong> Starting at $300</li>
+              </ul>
+              <p>Every project is unique, so the best way to get an accurate price is to <a href="quote.html">request a quote</a>. It's free and there's no obligation.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Do you require a deposit?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Yes, we require a 50% deposit to begin work on custom pieces. This covers the cost of materials and secures your spot in our build schedule. The remaining 50% is due upon completion, before delivery. For refinishing projects, the deposit structure may vary depending on the scope — we'll discuss this when we provide your quote.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>What payment methods do you accept?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>We accept cash, personal checks, Venmo, Zelle, and PayPal. For larger projects, we can also work with you on a payment plan. We want to make the process as easy as possible — just let us know what works best for you.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4: Delivery & Installation -->
+        <div class="faq-section fade-in">
+          <h2 class="faq-section__title">Delivery &amp; Installation</h2>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Do you deliver? How far?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Yes! We deliver throughout the San Antonio metro area and surrounding communities, including Alamo Heights, Stone Oak, The Dominion, Boerne, New Braunfels, Helotes, Bulverde, and most of the Texas Hill Country. Delivery within San Antonio is typically included in the price of the piece.</p>
+              <p>For deliveries outside our standard service area — Austin, Houston, Dallas, or anywhere else in Texas — we can usually arrange delivery for an additional fee. Just ask and we'll work something out.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Do you offer installation or setup?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Yes. When we deliver, we bring the piece inside, place it exactly where you want it, and make sure everything is level and solid. For wall-mounted pieces like floating shelves, we handle the full installation. For countertops and bar tops, we coordinate with your contractor or installer if needed. We don't just drop it at the door — we make sure it's perfect in your space before we leave.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 5: Refinishing Services -->
+        <div class="faq-section fade-in">
+          <h2 class="faq-section__title">Refinishing Services</h2>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>What types of furniture do you refinish?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>We refinish just about anything made of solid wood — dining tables, dressers, desks, chairs, cabinets, bookshelves, hope chests, nightstands, and more. If it's wood and it needs work, we can probably help. We work with both modern and antique pieces. The only things we typically pass on are laminate furniture (particle board with a veneer) since there's not enough real wood to sand and refinish properly.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" aria-expanded="false">
+            <button class="faq-item__question" type="button" aria-expanded="false">
+              <span>Can you restore antique or damaged pieces?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+              </span>
+            </button>
+            <div class="faq-item__answer" role="region">
+              <p>Absolutely. We've brought back heirloom pieces that were in pretty rough shape — water damage, scratches, broken joints, missing hardware, old finish that's seen better days. We'll assess the damage, talk through your options (full strip and refinish vs. touch-up and repair), and give you an honest recommendation. For antique pieces, we're careful to preserve the character and original elements that make them special. Sometimes the best restoration is the one you can barely notice.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" aria-label="Still have questions">
+      <div class="container">
+        <h2 class="fade-in">Still Have Questions?</h2>
+        <p class="fade-in">We're happy to chat. Reach out directly or request a free quote and we'll get back to you within a day or two.</p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="contact.html" class="btn btn--light btn--lg fade-in">Contact Us</a>
+          <a href="quote.html" class="btn btn--secondary btn--lg fade-in" style="border-color: var(--color-cream); color: var(--color-cream);">Get a Free Quote &rarr;</a>
+        </div>
+      </div>
+    </section>
+<!-- /wp:html -->]]></content:encoded>
+        <excerpt:encoded><![CDATA[Common questions about live edge furniture, custom orders, pricing, delivery & care. Learn how much a live edge table costs and how the custom process works.]]></excerpt:encoded>
+        <wp:post_id>5</wp:post_id>
+        <wp:post_date><![CDATA[2026-03-10 05:35:01]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_date_gmt>
+        <wp:post_modified><![CDATA[2026-03-10 05:35:01]]></wp:post_modified>
+        <wp:post_modified_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_modified_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[faq]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>5</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Common questions about live edge furniture, custom orders, pricing, delivery & care. Learn how much a live edge table costs and how the custom process works.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-title]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Frequently Asked Questions — Alamo Live Edge Furniture Co.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-description]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Answers to common questions about live edge furniture, custom orders, pricing, delivery, and care.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+            <wp:meta_value><![CDATA[how much does live edge furniture cost]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_0]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://alamoliveedge.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FAQ",
+        "item": "https://alamoliveedge.com/faq.html"
+      }
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_1]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is live edge furniture?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Live edge furniture preserves the natural outer edge of the tree in the finished piece. Instead of cutting the wood into a uniform rectangle, the organic curves, bark line, and raw character of the slab are kept intact. The result is a one-of-a-kind piece that showcases the tree's natural beauty — knots, grain patterns, and all."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What types of wood do you use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We specialize in Texas hardwoods: Black Walnut (rich dark tones, dramatic grain), Pecan (warm golden hues, versatile character), Mesquite (extremely hard, wild grain patterns unique to Texas), White Oak (light, strong, classic look), and Cedar (aromatic, warm reddish tones). We also work with other species on request."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a custom live edge table cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pricing depends on the wood species, slab size, design complexity, and finish. Coffee tables typically start around $800-$1,500. Dining tables range from $1,800-$5,000+. Desks run $1,500-$3,000. Refinishing projects start around $300. We provide detailed, no-obligation quotes for every project."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a custom piece take to build?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most custom pieces take 4-8 weeks from approval to delivery. Larger or more complex projects (like epoxy river tables or commercial installations) may take 8-12 weeks. Refinishing projects are typically 2-4 weeks. We'll give you a clear timeline when we provide your quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you deliver? How far?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we deliver throughout the San Antonio metro area and surrounding communities including Alamo Heights, Stone Oak, The Dominion, Boerne, New Braunfels, Helotes, and Bulverde. Delivery within San Antonio is typically included in the price. We can arrange delivery to other Texas locations for an additional fee."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I care for and maintain my live edge piece?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Daily care is simple: wipe with a soft, damp cloth. Avoid harsh chemicals. Use coasters for hot or wet items. Depending on your finish, we recommend reapplying a maintenance coat of oil or wax every 6-12 months. We'll provide specific care instructions with every piece we deliver."
+        }
+      }
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Contact]]></title>
+        <link>https://alamoliveedge.com/contact</link>
+        <pubDate>Tue, 10 Mar 2026 05:35:01 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://alamoliveedge.com/?page_id=6</guid>
+        <description></description>
+        <content:encoded><![CDATA[<!-- wp:html -->
+<!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Alamo Live Edge Furniture Co.</h1>
+        <p>Have a question, an idea, or just want to talk wood? We'd love to hear from you. Reach out however works best.</p>
+      </div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <ol class="breadcrumbs__list" role="list">
+          <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Home</a></li>
+          <li class="breadcrumbs__separator" aria-hidden="true">/</li>
+          <li class="breadcrumbs__item"><span class="breadcrumbs__current" aria-current="page">Contact</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section" aria-label="Contact form and information">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Contact Form -->
+          <div>
+            <h2 style="margin-bottom: var(--space-lg);">Send Us a Message</h2>
+            <p style="margin-bottom: var(--space-xl);">Fill out the form below and we'll get back to you within 24-48 hours. For custom furniture quotes, our <a href="quote.html">quote form</a> will get you a faster, more detailed response.</p>
+
+            <form id="contact-form" data-validate aria-label="Contact form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label form-label--required">Your Name</label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="First and last name" required autocomplete="name">
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label form-label--required">Email Address</label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+                  <span class="form-error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-phone" class="form-label">Phone Number</label>
+                  <input type="tel" id="contact-phone" name="phone" class="form-input" placeholder="(210) 555-1234" autocomplete="tel">
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label form-label--required">Subject</label>
+                  <select id="contact-subject" name="subject" class="form-select" required>
+                    <option value="">What's this about?</option>
+                    <option value="general">General Question</option>
+                    <option value="custom-project">Custom Project Inquiry</option>
+                    <option value="refinishing">Refinishing Question</option>
+                    <option value="existing-order">Existing Order</option>
+                    <option value="collaboration">Business / Collaboration</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <span class="form-error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label form-label--required">Message</label>
+                <textarea id="contact-message" name="message" class="form-textarea" rows="6" placeholder="Tell us what's on your mind..." required></textarea>
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
+            </form>
+
+            <!-- Success Message -->
+            <div class="form-success" role="status">
+              <div class="form-success__icon" aria-hidden="true">&#10003;</div>
+              <h3>Message Sent!</h3>
+              <p>Thanks for reaching out. We'll get back to you within 24-48 hours. In the meantime, feel free to browse our <a href="shop.html">recent work</a> or check out our <a href="faq.html">FAQ</a>.</p>
+            </div>
+          </div>
+
+          <!-- Contact Info Card -->
+          <aside>
+            <div class="contact-info-card">
+              <h3>Get in Touch Directly</h3>
+
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Call or Text</h4>
+                  <p><a href="tel:+12105550178">(210) 555-0178</a></p>
+                  <p style="font-size: 0.8rem; margin-top: 4px;">Prefer to text? We get it. Text us anytime and we'll respond as soon as we can.</p>
+                </div>
+              </div>
+
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Email</h4>
+                  <p><a href="mailto:rob@alamoliveedge.com">rob@alamoliveedge.com</a></p>
+                </div>
+              </div>
+
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Location</h4>
+                  <p>San Antonio, TX 78201</p>
+                  <p style="font-size: 0.8rem; margin-top: 4px;">Workshop visits by appointment only. Call or text to schedule.</p>
+                </div>
+              </div>
+
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Business Hours</h4>
+                  <p>Monday – Friday: 8:00 AM – 5:00 PM</p>
+                  <p>Saturday: 9:00 AM – 2:00 PM</p>
+                  <p>Sunday: Closed</p>
+                </div>
+              </div>
+
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Service Area</h4>
+                  <p>San Antonio, Alamo Heights, Stone Oak, The Dominion, Boerne, New Braunfels, Helotes, Bulverde &amp; the Texas Hill Country</p>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="contact-socials">
+                <a href="https://www.facebook.com/alamoliveedge" class="contact-social-link" aria-label="Follow us on Facebook" target="_blank" rel="noopener noreferrer">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/alamoliveedge" class="contact-social-link" aria-label="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                </a>
+                <a href="https://www.pinterest.com/alamoliveedge" class="contact-social-link" aria-label="Follow us on Pinterest" target="_blank" rel="noopener noreferrer">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641 0 12.017 0z"/></svg>
+                </a>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MAP SECTION ===== -->
+    <section class="section section--alt" aria-label="Our location on the map">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Find Us</span>
+          <h2>Serving San Antonio &amp; the Hill Country</h2>
+          <p>We deliver custom furniture throughout the San Antonio metro area and surrounding communities. Workshop visits available by appointment.</p>
+        </div>
+
+        <div class="map-embed" role="img" aria-label="Map showing Alamo Live Edge Furniture Co. location in San Antonio, Texas">
+          <!-- Replace this placeholder with actual Google Maps embed in production -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222361.28368025247!2d-98.67459774330872!3d29.458870033946056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58af04d00eaf%3A0x856e8b57a9f0fa3b!2sSan%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1709000000000!5m2!1sen!2sus"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Map of San Antonio, TX — Alamo Live Edge Furniture service area">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" aria-label="Call to action">
+      <div class="container">
+        <h2 class="fade-in">Ready to Start Your Custom Furniture Project?</h2>
+        <p class="fade-in">Skip the contact form and go straight to a detailed quote. Tell us what you're looking for and we'll put together a plan.</p>
+        <a href="quote.html" class="btn btn--light btn--lg fade-in">Get Your Free Quote &rarr;</a>
+      </div>
+    </section>
+<!-- /wp:html -->]]></content:encoded>
+        <excerpt:encoded><![CDATA[Contact Alamo Live Edge Furniture Co. in San Antonio, TX. Call, text, or email veteran craftsman Rob Faulkner for custom live edge furniture and refinishing.]]></excerpt:encoded>
+        <wp:post_id>6</wp:post_id>
+        <wp:post_date><![CDATA[2026-03-10 05:35:01]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_date_gmt>
+        <wp:post_modified><![CDATA[2026-03-10 05:35:01]]></wp:post_modified>
+        <wp:post_modified_gmt><![CDATA[2026-03-10 05:35:01]]></wp:post_modified_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[contact]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>6</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_metadesc]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Contact Alamo Live Edge Furniture Co. in San Antonio, TX. Call, text, or email veteran craftsman Rob Faulkner for custom live edge furniture and refinishing.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-title]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Contact Us — Alamo Live Edge Furniture Co., San Antonio TX]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_opengraph-description]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Get in touch with Rob Faulkner at Alamo Live Edge Furniture Co. Call, text, email, or visit our San Antonio workshop.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_yoast_wpseo_focuskw]]></wp:meta_key>
+            <wp:meta_value><![CDATA[contact live edge furniture San Antonio]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_0]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://alamoliveedge.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact",
+        "item": "https://alamoliveedge.com/contact.html"
+      }
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_alamo_schema_1]]></wp:meta_key>
+            <wp:meta_value><![CDATA[{
+    "@context": "https://schema.org",
+    "@type": "FurnitureStore",
+    "name": "Alamo Live Edge Furniture Co.",
+    "telephone": "(210) 555-0178",
+    "email": "rob@alamoliveedge.com",
+    "url": "https://alamoliveedge.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "San Antonio",
+      "addressLocality": "San Antonio",
+      "addressRegion": "TX",
+      "postalCode": "78201",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "areaServed": [
+      "San Antonio", "Alamo Heights", "Stone Oak", "The Dominion",
+      "Boerne", "New Braunfels", "Helotes", "Bulverde", "Texas Hill Country"
+    ]
+  }]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+</channel>
+</rss>

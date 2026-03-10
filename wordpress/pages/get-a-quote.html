@@ -1,0 +1,206 @@
+<!-- wp:html -->
+<!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Let's Build Something Beautiful Together</h1>
+        <p>Tell us about your project and we'll put together a free, no-obligation quote. Custom furniture starts here.</p>
+      </div>
+    </section>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <ol class="breadcrumbs__list" role="list">
+          <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Home</a></li>
+          <li class="breadcrumbs__separator" aria-hidden="true">/</li>
+          <li class="breadcrumbs__item"><span class="breadcrumbs__current" aria-current="page">Get a Quote</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== QUOTE FORM SECTION ===== -->
+    <section class="section" aria-label="Request a quote form">
+      <div class="container">
+        <div class="quote-layout">
+
+          <!-- Form -->
+          <div>
+            <form id="quote-form" data-validate aria-label="Custom furniture quote request form">
+              <h2 style="margin-bottom: var(--space-xl);">Tell Us About Your Project</h2>
+
+              <!-- Name & Email -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="quote-name" class="form-label form-label--required">Your Name</label>
+                  <input type="text" id="quote-name" name="name" class="form-input" placeholder="First and last name" required autocomplete="name">
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="quote-email" class="form-label form-label--required">Email Address</label>
+                  <input type="email" id="quote-email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+                  <span class="form-error" role="alert"></span>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="quote-phone" class="form-label">Phone Number</label>
+                <input type="tel" id="quote-phone" name="phone" class="form-input" placeholder="(210) 555-1234" autocomplete="tel">
+                <span class="form-hint">Optional — but helpful if you'd rather chat by phone or text.</span>
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <!-- Project Type -->
+              <div class="form-group">
+                <label for="quote-project" class="form-label form-label--required">Project Type</label>
+                <select id="quote-project" name="project_type" class="form-select" required>
+                  <option value="">Select your project type...</option>
+                  <option value="dining-table">Dining Table</option>
+                  <option value="coffee-table">Coffee Table</option>
+                  <option value="desk">Desk / Workstation</option>
+                  <option value="shelving">Shelving / Wall Art</option>
+                  <option value="countertop">Countertop / Bar Top</option>
+                  <option value="refinishing">Refinishing / Restoration</option>
+                  <option value="other">Other / Not Sure Yet</option>
+                </select>
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <!-- Wood Type -->
+              <div class="form-group">
+                <label for="quote-wood" class="form-label">Preferred Wood Type</label>
+                <select id="quote-wood" name="wood_type" class="form-select">
+                  <option value="">Select a wood species...</option>
+                  <option value="walnut">Black Walnut</option>
+                  <option value="pecan">Pecan</option>
+                  <option value="mesquite">Mesquite</option>
+                  <option value="oak">White Oak</option>
+                  <option value="cedar">Cedar</option>
+                  <option value="not-sure">Not Sure / Surprise Me</option>
+                </select>
+                <span class="form-hint">Don't know what wood to choose? No worries — we'll help you pick the right one during your consultation.</span>
+              </div>
+
+              <!-- Dimensions -->
+              <div class="form-group">
+                <label for="quote-dimensions" class="form-label">Approximate Dimensions or Description</label>
+                <input type="text" id="quote-dimensions" name="dimensions" class="form-input" placeholder="e.g., 8ft dining table for 8 people, 5ft desk, etc.">
+                <span class="form-hint">A rough idea is fine — we'll work out the exact details together.</span>
+              </div>
+
+              <!-- Budget & Timeline -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="quote-budget" class="form-label">Budget Range</label>
+                  <select id="quote-budget" name="budget" class="form-select">
+                    <option value="">Select a range...</option>
+                    <option value="under-500">Under $500</option>
+                    <option value="500-1000">$500 – $1,000</option>
+                    <option value="1000-2500">$1,000 – $2,500</option>
+                    <option value="2500-5000">$2,500 – $5,000</option>
+                    <option value="5000-plus">$5,000+</option>
+                    <option value="not-sure">Not Sure Yet</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="quote-timeline" class="form-label">Timeline</label>
+                  <select id="quote-timeline" name="timeline" class="form-select">
+                    <option value="">When do you need it?</option>
+                    <option value="no-rush">No Rush — Take Your Time</option>
+                    <option value="1-2-months">1 – 2 Months</option>
+                    <option value="3-4-months">3 – 4 Months</option>
+                    <option value="specific-date">Need It by a Specific Date</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Inspiration Photos -->
+              <div class="form-group">
+                <label for="quote-files" class="form-label">Inspiration Photos</label>
+                <input type="file" id="quote-files" name="inspiration_photos" class="form-file" accept="image/*" multiple>
+                <span class="form-hint">Upload photos of styles you like, your space, or anything that gives us a feel for your vision. JPG, PNG up to 10MB each.</span>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="quote-message" class="form-label">Additional Details</label>
+                <textarea id="quote-message" name="message" class="form-textarea" rows="5" placeholder="Tell us anything else about your project — design preferences, how you'll use the piece, special requests, or questions you have."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">Send My Quote Request</button>
+            </form>
+
+            <!-- Success Message -->
+            <div class="form-success" role="status">
+              <div class="form-success__icon" aria-hidden="true">&#10003;</div>
+              <h3>Quote Request Received!</h3>
+              <p>Thanks for reaching out. Rob will review your project details and get back to you within 24-48 hours — usually sooner. Keep an eye on your inbox (and check your spam folder, just in case).</p>
+              <p style="margin-top: var(--space-lg);"><a href="shop.html" class="btn btn--secondary">Browse Our Work While You Wait &rarr;</a></p>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="quote-sidebar" aria-label="What to expect after submitting">
+            <h3>What to Expect</h3>
+
+            <div class="quote-sidebar__item">
+              <div class="quote-sidebar__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 6v6l4 2"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Quick Response</h4>
+                <p>We respond to most quote requests within 24-48 hours. You'll hear directly from Rob — not an automated system.</p>
+              </div>
+            </div>
+
+            <div class="quote-sidebar__item">
+              <div class="quote-sidebar__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Free Consultation</h4>
+                <p>We'll schedule a phone call or in-person visit to discuss your project in detail. We'll talk wood selection, design options, and answer any questions.</p>
+              </div>
+            </div>
+
+            <div class="quote-sidebar__item">
+              <div class="quote-sidebar__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M9 12l2 2 4-4"/>
+                  <path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/>
+                </svg>
+              </div>
+              <div>
+                <h4>No Obligation</h4>
+                <p>Getting a quote is completely free. There's zero pressure to commit. We want you to feel confident before moving forward.</p>
+              </div>
+            </div>
+
+            <div class="quote-sidebar__item">
+              <div class="quote-sidebar__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <rect x="2" y="3" width="20" height="18" rx="2"/>
+                  <line x1="2" y1="9" x2="22" y2="9"/>
+                  <line x1="9" y1="21" x2="9" y2="9"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Clear Pricing</h4>
+                <p>Your quote will include a detailed breakdown — materials, labor, finish, delivery. No hidden fees, no surprises at the end.</p>
+              </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid var(--color-border); margin: var(--space-lg) 0;">
+
+            <p style="font-size: var(--font-size-sm); color: var(--color-text-muted);">Prefer to talk? Call or text Rob directly at <a href="tel:+12105550178" style="font-weight: 600;">(210) 555-0178</a> or email <a href="mailto:rob@alamoliveedge.com" style="font-weight: 600;">rob@alamoliveedge.com</a>.</p>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+<!-- /wp:html -->
