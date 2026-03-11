@@ -193,15 +193,53 @@
         var isValid = validateForm(form);
 
         if (isValid) {
-          // Show success message
-          var successMsg = form.closest('section').querySelector('.form-success');
-          if (successMsg) {
-            form.style.display = 'none';
-            successMsg.classList.add('form-success--visible');
-          }
+          var formData = new FormData(form);
+          var action = form.getAttribute('action');
 
-          // In production, this would submit to a server
-          console.log('Form submitted:', getFormData(form));
+          if (action) {
+            var submitBtn = form.querySelector('[type="submit"]');
+            if (submitBtn) {
+              submitBtn.disabled = true;
+              submitBtn.textContent = 'Sending...';
+            }
+
+            fetch(action, {
+              method: 'POST',
+              body: formData,
+              headers: { 'Accept': 'application/json' }
+            }).then(function (response) {
+              if (response.ok) {
+                var successMsg = form.closest('section') ? form.closest('section').querySelector('.form-success') : null;
+                if (!successMsg) {
+                  successMsg = form.parentElement.querySelector('.form-success');
+                }
+                if (successMsg) {
+                  form.style.display = 'none';
+                  successMsg.classList.add('form-success--visible');
+                }
+                form.reset();
+              } else {
+                alert('There was a problem sending your message. Please try again or contact us directly.');
+              }
+            }).catch(function () {
+              alert('There was a problem sending your message. Please try again or contact us directly.');
+            }).finally(function () {
+              if (submitBtn) {
+                submitBtn.disabled = false;
+                submitBtn.textContent = submitBtn.getAttribute('data-original-text') || 'Send';
+              }
+            });
+          } else {
+            // Fallback if no action URL configured
+            var successMsg = form.closest('section') ? form.closest('section').querySelector('.form-success') : null;
+            if (!successMsg) {
+              successMsg = form.parentElement.querySelector('.form-success');
+            }
+            if (successMsg) {
+              form.style.display = 'none';
+              successMsg.classList.add('form-success--visible');
+            }
+          }
         }
       });
 
