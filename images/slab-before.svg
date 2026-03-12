@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="workshopFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a8078"/>
+      <stop offset="100%" stop-color="#6e645c"/>
+    </linearGradient>
+    <linearGradient id="rawWood" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0%" stop-color="#9e7e5a"/>
+      <stop offset="15%" stop-color="#8b6d48"/>
+      <stop offset="30%" stop-color="#a08058"/>
+      <stop offset="50%" stop-color="#8d6f4a"/>
+      <stop offset="70%" stop-color="#9c7c56"/>
+      <stop offset="85%" stop-color="#8a6c46"/>
+      <stop offset="100%" stop-color="#9b7b54"/>
+    </linearGradient>
+    <linearGradient id="rawBark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3520"/>
+      <stop offset="50%" stop-color="#3a2815"/>
+      <stop offset="100%" stop-color="#4d3822"/>
+    </linearGradient>
+    <filter id="roughTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="6" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feBlend in="SourceGraphic" in2="grayNoise" mode="soft-light"/>
+    </filter>
+  </defs>
+  <!-- Workshop background -->
+  <rect width="800" height="600" fill="url(#workshopFloor)"/>
+  <rect width="800" height="600" fill="rgba(0,0,0,0.15)"/>
+  <!-- Workbench surface -->
+  <rect x="0" y="100" width="800" height="500" fill="#7a6b5a" opacity="0.6"/>
+  <!-- Raw slab - rough, unfinished -->
+  <g filter="url(#roughTexture)">
+    <!-- Slab body -->
+    <path d="M60,180 Q80,170 150,175 Q250,165 350,172 Q450,160 550,168 Q650,158 720,165 L740,170 Q750,200 745,280 Q748,350 740,420 L720,430 Q650,440 550,435 Q450,445 350,438 Q250,448 150,440 Q80,445 60,438 L50,430 Q45,350 48,280 Q44,200 50,185 Z" fill="url(#rawWood)"/>
+    <!-- Bark edges -->
+    <path d="M50,185 Q45,170 60,180 Q80,170 150,175 Q250,165 350,172 Q450,160 550,168 Q650,158 720,165 L740,170 Q755,175 750,185 Q746,178 740,175 Q650,165 550,173 Q450,167 350,178 Q250,172 150,182 Q80,178 60,185 Q52,180 50,185 Z" fill="url(#rawBark)"/>
+    <path d="M50,430 Q45,440 60,438 Q80,445 150,440 Q250,448 350,438 Q450,445 550,435 Q650,440 720,430 L740,420 Q748,430 745,435 Q740,438 720,438 Q650,448 550,442 Q450,452 350,445 Q250,455 150,448 Q80,452 60,445 Q52,440 50,430 Z" fill="url(#rawBark)"/>
+    <!-- Rough grain lines -->
+    <path d="M80,220 Q200,215 400,218 Q600,212 720,216" stroke="#7a6038" stroke-width="1.5" fill="none" opacity="0.3"/>
+    <path d="M80,260 Q200,254 400,258 Q600,250 720,255" stroke="#7a6038" stroke-width="1" fill="none" opacity="0.25"/>
+    <path d="M80,300 Q200,295 400,298 Q600,292 720,296" stroke="#806440" stroke-width="2" fill="none" opacity="0.2"/>
+    <path d="M80,340 Q200,335 400,338 Q600,332 720,336" stroke="#7a6038" stroke-width="1" fill="none" opacity="0.25"/>
+    <path d="M80,380 Q200,375 400,378 Q600,372 720,376" stroke="#7a6038" stroke-width="1.5" fill="none" opacity="0.3"/>
+    <!-- Rough spots / knots -->
+    <circle cx="280" cy="290" r="18" fill="#6a5030" opacity="0.4"/>
+    <circle cx="280" cy="290" r="8" fill="#5a4020" opacity="0.5"/>
+    <circle cx="550" cy="350" r="12" fill="#6a5030" opacity="0.35"/>
+    <!-- Saw marks / rough texture indicators -->
+    <line x1="100" y1="200" x2="100" y2="410" stroke="#8a7050" stroke-width="0.5" opacity="0.2"/>
+    <line x1="200" y1="195" x2="200" y2="415" stroke="#8a7050" stroke-width="0.5" opacity="0.15"/>
+    <line x1="300" y1="192" x2="300" y2="418" stroke="#8a7050" stroke-width="0.5" opacity="0.2"/>
+    <line x1="400" y1="190" x2="400" y2="420" stroke="#8a7050" stroke-width="0.5" opacity="0.15"/>
+    <line x1="500" y1="188" x2="500" y2="418" stroke="#8a7050" stroke-width="0.5" opacity="0.2"/>
+    <line x1="600" y1="186" x2="600" y2="416" stroke="#8a7050" stroke-width="0.5" opacity="0.15"/>
+    <!-- Cracks -->
+    <path d="M520,172 Q525,200 518,230 Q522,250 515,268" stroke="#6a5030" stroke-width="1.5" fill="none" opacity="0.5"/>
+  </g>
+  <!-- Label -->
+  <rect x="20" y="20" width="160" height="50" rx="8" fill="rgba(62,39,35,0.9)"/>
+  <text x="100" y="42" font-family="Georgia, serif" font-size="16" fill="#faf3e0" text-anchor="middle" font-weight="bold">BEFORE</text>
+  <text x="100" y="58" font-family="Georgia, serif" font-size="11" fill="rgba(250,243,224,0.7)" text-anchor="middle">Raw Walnut Slab</text>
+</svg>

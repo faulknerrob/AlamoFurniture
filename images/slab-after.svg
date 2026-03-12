@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="diningRoom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f2ea"/>
+      <stop offset="60%" stop-color="#ede5d8"/>
+      <stop offset="100%" stop-color="#c4b8a8"/>
+    </linearGradient>
+    <linearGradient id="finishedWood" x1="0" y1="0" x2="1" y2="0.1">
+      <stop offset="0%" stop-color="#5c3a1e"/>
+      <stop offset="10%" stop-color="#6b442a"/>
+      <stop offset="25%" stop-color="#5a3518"/>
+      <stop offset="40%" stop-color="#6d4630"/>
+      <stop offset="55%" stop-color="#5e3820"/>
+      <stop offset="70%" stop-color="#6a4228"/>
+      <stop offset="85%" stop-color="#5c3a1e"/>
+      <stop offset="100%" stop-color="#6b442a"/>
+    </linearGradient>
+    <linearGradient id="glossSheen" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
+      <stop offset="40%" stop-color="rgba(255,255,255,0.05)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <linearGradient id="finishedBark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3e2510"/>
+      <stop offset="50%" stop-color="#2d1a0a"/>
+      <stop offset="100%" stop-color="#3a2210"/>
+    </linearGradient>
+    <linearGradient id="leg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="50%" stop-color="#333"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <filter id="tableShad">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="smoothGrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply"/>
+    </filter>
+  </defs>
+  <!-- Room background -->
+  <rect width="800" height="600" fill="url(#diningRoom)"/>
+  <!-- Floor -->
+  <rect x="0" y="420" width="800" height="180" fill="#c4b098" opacity="0.5"/>
+  <!-- Table with legs -->
+  <g filter="url(#tableShad)">
+    <!-- Steel hairpin legs -->
+    <path d="M140,340 L120,530" stroke="url(#leg)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M140,340 L155,530" stroke="url(#leg)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M660,330 L645,530" stroke="url(#leg)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M660,330 L680,530" stroke="url(#leg)" stroke-width="4" stroke-linecap="round"/>
+    <!-- Front legs -->
+    <path d="M180,355 L165,530" stroke="url(#leg)" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M180,355 L195,530" stroke="url(#leg)" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M620,348 L605,530" stroke="url(#leg)" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M620,348 L635,530" stroke="url(#leg)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Table top - finished slab -->
+    <g filter="url(#smoothGrain)">
+      <!-- Edge/thickness -->
+      <path d="M80,320 Q80,325 82,340 Q85,355 88,360 L712,345 Q715,340 718,325 Q720,315 720,310 Z" fill="#4a2e14"/>
+      <!-- Live edge bark (back) -->
+      <path d="M80,280 Q100,275 160,278 Q260,270 360,274 Q460,266 560,272 Q640,265 700,270 L720,274 Q722,278 720,285 Q718,290 720,295 L700,298 Q640,305 560,300 Q460,308 360,302 Q260,310 160,305 Q100,310 80,308 Q78,300 80,292 Q78,285 80,280 Z" fill="url(#finishedBark)"/>
+      <!-- Top surface -->
+      <path d="M80,280 Q100,275 160,278 Q260,270 360,274 Q460,266 560,272 Q640,265 700,270 L720,274 L720,310 Q640,318 560,312 Q460,322 360,315 Q260,325 160,318 Q100,322 80,320 Z" fill="url(#finishedWood)"/>
+      <!-- Gloss/finish sheen -->
+      <path d="M80,280 Q100,275 160,278 Q260,270 360,274 Q460,266 560,272 Q640,265 700,270 L720,274 L720,310 Q640,318 560,312 Q460,322 360,315 Q260,325 160,318 Q100,322 80,320 Z" fill="url(#glossSheen)"/>
+      <!-- Refined grain lines -->
+      <path d="M100,288 Q250,282 400,286 Q550,280 700,284" stroke="#4a2e14" stroke-width="0.8" fill="none" opacity="0.25"/>
+      <path d="M100,294 Q250,288 400,292 Q550,286 700,290" stroke="#4a2e14" stroke-width="0.5" fill="none" opacity="0.2"/>
+      <path d="M100,300 Q250,294 400,298 Q550,292 700,296" stroke="#4a2e14" stroke-width="0.8" fill="none" opacity="0.25"/>
+      <path d="M100,306 Q250,300 400,304 Q550,298 700,302" stroke="#4a2e14" stroke-width="0.5" fill="none" opacity="0.2"/>
+    </g>
+  </g>
+  <!-- Tabletop decoration - small vase -->
+  <ellipse cx="400" cy="268" rx="15" ry="6" fill="rgba(0,0,0,0.1)"/>
+  <path d="M390,268 Q388,248 392,235 Q396,225 400,222 Q404,225 408,235 Q412,248 410,268 Z" fill="#c9a87c"/>
+  <ellipse cx="400" cy="220" rx="10" ry="5" fill="#4a7a3a" opacity="0.8"/>
+  <!-- Label -->
+  <rect x="20" y="20" width="160" height="50" rx="8" fill="rgba(62,39,35,0.9)"/>
+  <text x="100" y="42" font-family="Georgia, serif" font-size="16" fill="#faf3e0" text-anchor="middle" font-weight="bold">AFTER</text>
+  <text x="100" y="58" font-family="Georgia, serif" font-size="11" fill="rgba(250,243,224,0.7)" text-anchor="middle">Finished Dining Table</text>
+</svg>

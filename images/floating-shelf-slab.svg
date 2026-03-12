@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f0e8"/>
+      <stop offset="100%" stop-color="#e8e0d4"/>
+    </linearGradient>
+    <linearGradient id="wood1" x1="0" y1="0" x2="1" y2="0.1">
+      <stop offset="0%" stop-color="#5c3a1e"/>
+      <stop offset="20%" stop-color="#6b442a"/>
+      <stop offset="40%" stop-color="#5a3518"/>
+      <stop offset="60%" stop-color="#6d4630"/>
+      <stop offset="80%" stop-color="#583318"/>
+      <stop offset="100%" stop-color="#6a4228"/>
+    </linearGradient>
+    <linearGradient id="woodTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7a5535"/>
+      <stop offset="30%" stop-color="#8b6340"/>
+      <stop offset="50%" stop-color="#7d5838"/>
+      <stop offset="70%" stop-color="#8a6242"/>
+      <stop offset="100%" stop-color="#7c5636"/>
+    </linearGradient>
+    <linearGradient id="bark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3e2510"/>
+      <stop offset="50%" stop-color="#2d1a0a"/>
+      <stop offset="100%" stop-color="#3a2210"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply" result="blended"/>
+    </filter>
+  </defs>
+  <!-- Wall -->
+  <rect width="800" height="600" fill="url(#wall)"/>
+  <!-- Shelf shadow on wall -->
+  <ellipse cx="400" cy="330" rx="320" ry="15" fill="rgba(0,0,0,0.08)"/>
+  <!-- Shelf - live edge slab -->
+  <g filter="url(#shadow)">
+    <!-- Bark edge (front) -->
+    <path d="M80,290 Q90,286 120,288 Q180,284 240,287 Q300,283 360,286 Q420,282 480,285 Q540,281 600,284 Q660,280 700,283 L700,310 Q660,314 600,312 Q540,316 480,313 Q420,318 360,315 Q300,320 240,316 Q180,322 120,318 Q90,320 80,318 Z" fill="url(#bark)"/>
+    <!-- Wood top surface -->
+    <path d="M80,260 Q90,258 120,259 Q180,256 240,258 Q300,254 360,256 Q420,252 480,255 Q540,251 600,254 Q660,250 700,253 L700,283 Q660,280 600,284 Q540,281 480,285 Q420,282 360,286 Q300,283 240,287 Q180,284 120,288 Q90,286 80,290 Z" fill="url(#woodTop)" filter="url(#grain)"/>
+    <!-- Wood grain lines -->
+    <path d="M100,268 Q250,264 400,266 Q550,262 690,265" stroke="#6a4525" stroke-width="0.5" fill="none" opacity="0.4"/>
+    <path d="M100,272 Q250,268 400,270 Q550,266 690,269" stroke="#6a4525" stroke-width="0.3" fill="none" opacity="0.3"/>
+    <path d="M100,276 Q250,272 400,274 Q550,270 690,273" stroke="#6a4525" stroke-width="0.5" fill="none" opacity="0.35"/>
+    <!-- Front face -->
+    <path d="M80,290 L80,260 Q90,258 120,259 L120,288 Q90,286 80,290 Z" fill="#654020" opacity="0.3"/>
+    <path d="M700,253 L700,283 Q660,280 600,284 L600,254 Q660,250 700,253 Z" fill="#654020" opacity="0.2"/>
+  </g>
+  <!-- Decorative items on shelf -->
+  <!-- Small plant -->
+  <rect x="180" y="230" width="40" height="30" rx="3" fill="#c4956a"/>
+  <ellipse cx="200" cy="228" rx="25" ry="18" fill="#3d7a3d"/>
+  <ellipse cx="195" cy="225" rx="12" ry="10" fill="#4a8f4a"/>
+  <!-- Book -->
+  <rect x="520" y="235" width="15" height="25" fill="#8b4513" rx="1"/>
+  <rect x="538" y="237" width="12" height="23" fill="#2c5f7c" rx="1"/>
+  <rect x="553" y="233" width="14" height="27" fill="#6b3a2a" rx="1"/>
+  <!-- Text overlay -->
+  <rect x="200" y="440" width="400" height="60" rx="8" fill="rgba(62,39,35,0.85)"/>
+  <text x="400" y="467" font-family="Georgia, serif" font-size="18" fill="#faf3e0" text-anchor="middle" font-weight="bold">Live Edge Floating Shelf Slab</text>
+  <text x="400" y="488" font-family="Georgia, serif" font-size="14" fill="rgba(250,243,224,0.8)" text-anchor="middle">Natural Walnut &bull; Wall-Mounted &bull; Hidden Brackets</text>
+</svg>
