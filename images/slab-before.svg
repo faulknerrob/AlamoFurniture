@@ -1,63 +1,294 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
   <defs>
-    <linearGradient id="workshopFloor" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#8a8078"/>
-      <stop offset="100%" stop-color="#6e645c"/>
+    <!-- Workshop wall -->
+    <linearGradient id="workshopWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="40%" stop-color="#9e8e7e"/>
+      <stop offset="100%" stop-color="#8a7a6a"/>
     </linearGradient>
-    <linearGradient id="rawWood" x1="0" y1="0" x2="1" y2="0.2">
-      <stop offset="0%" stop-color="#9e7e5a"/>
-      <stop offset="15%" stop-color="#8b6d48"/>
-      <stop offset="30%" stop-color="#a08058"/>
-      <stop offset="50%" stop-color="#8d6f4a"/>
-      <stop offset="70%" stop-color="#9c7c56"/>
-      <stop offset="85%" stop-color="#8a6c46"/>
-      <stop offset="100%" stop-color="#9b7b54"/>
+    <!-- Concrete floor -->
+    <linearGradient id="concreteFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a8580"/>
+      <stop offset="100%" stop-color="#787370"/>
     </linearGradient>
-    <linearGradient id="rawBark" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#4a3520"/>
-      <stop offset="50%" stop-color="#3a2815"/>
-      <stop offset="100%" stop-color="#4d3822"/>
+    <!-- Workshop overhead light -->
+    <radialGradient id="overheadLight" cx="0.45" cy="0.15" r="0.7">
+      <stop offset="0%" stop-color="rgba(255,240,210,0.25)"/>
+      <stop offset="50%" stop-color="rgba(255,235,200,0.08)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.05)"/>
+    </radialGradient>
+    <!-- Raw mesquite wood grain -->
+    <linearGradient id="rawMesquite" x1="0" y1="0" x2="1" y2="0.05">
+      <stop offset="0%" stop-color="#9e7040"/>
+      <stop offset="8%" stop-color="#b07a42"/>
+      <stop offset="15%" stop-color="#8e6538"/>
+      <stop offset="22%" stop-color="#a87545"/>
+      <stop offset="30%" stop-color="#936a3c"/>
+      <stop offset="38%" stop-color="#b5804a"/>
+      <stop offset="45%" stop-color="#8a6235"/>
+      <stop offset="52%" stop-color="#a47242"/>
+      <stop offset="60%" stop-color="#986c3e"/>
+      <stop offset="68%" stop-color="#b07a44"/>
+      <stop offset="75%" stop-color="#8c6436"/>
+      <stop offset="82%" stop-color="#a67648"/>
+      <stop offset="90%" stop-color="#946e40"/>
+      <stop offset="100%" stop-color="#9e7040"/>
     </linearGradient>
-    <filter id="roughTexture">
-      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="6" result="noise"/>
+    <!-- Heartwood darker center -->
+    <radialGradient id="heartwood" cx="0.48" cy="0.52" rx="0.35" ry="0.4">
+      <stop offset="0%" stop-color="#7a4e28" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#8a5e32" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#9e7040" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Bark texture -->
+    <linearGradient id="barkTop" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a2815"/>
+      <stop offset="30%" stop-color="#4a3520"/>
+      <stop offset="60%" stop-color="#352212"/>
+      <stop offset="100%" stop-color="#40301a"/>
+    </linearGradient>
+    <linearGradient id="barkBottom" x1="0" y1="1" x2="0.3" y2="0">
+      <stop offset="0%" stop-color="#3a2815"/>
+      <stop offset="30%" stop-color="#4a3520"/>
+      <stop offset="60%" stop-color="#352212"/>
+      <stop offset="100%" stop-color="#40301a"/>
+    </linearGradient>
+    <!-- Sawhorse wood -->
+    <linearGradient id="sawhorseWood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b89870"/>
+      <stop offset="50%" stop-color="#a88860"/>
+      <stop offset="100%" stop-color="#987850"/>
+    </linearGradient>
+    <!-- Rough texture filter -->
+    <filter id="roughSurface" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04 0.15" numOctaves="8" seed="3" result="noise"/>
       <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
       <feBlend in="SourceGraphic" in2="grayNoise" mode="soft-light"/>
     </filter>
+    <!-- Fine dust/grain filter -->
+    <filter id="dustTexture" x="-2%" y="-2%" width="104%" height="104%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" seed="7" result="dust"/>
+      <feColorMatrix type="saturate" values="0" in="dust" result="grayDust"/>
+      <feBlend in="SourceGraphic" in2="grayDust" mode="overlay" result="dusted"/>
+      <feComponentTransfer in="dusted">
+        <feFuncA type="linear" slope="0.95"/>
+      </feComponentTransfer>
+    </filter>
+    <!-- Concrete texture -->
+    <filter id="concreteTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.15" numOctaves="5" seed="12"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
+    <!-- Shadow filter -->
+    <filter id="slabShadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <!-- Sawdust particles -->
+    <filter id="sawdust">
+      <feTurbulence type="fractalNoise" baseFrequency="2" numOctaves="2" seed="42"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 1 0 0 0"/>
+      </feComponentTransfer>
+    </filter>
+    <!-- Wall texture -->
+    <filter id="wallTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.3" numOctaves="3" seed="5"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
+    <!-- Bark bump -->
+    <filter id="barkBump">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06 0.25" numOctaves="6" seed="9" result="barkNoise"/>
+      <feColorMatrix type="saturate" values="0" in="barkNoise" result="grayBark"/>
+      <feBlend in="SourceGraphic" in2="grayBark" mode="multiply"/>
+    </filter>
   </defs>
-  <!-- Workshop background -->
-  <rect width="800" height="600" fill="url(#workshopFloor)"/>
-  <rect width="800" height="600" fill="rgba(0,0,0,0.15)"/>
-  <!-- Workbench surface -->
-  <rect x="0" y="100" width="800" height="500" fill="#7a6b5a" opacity="0.6"/>
-  <!-- Raw slab - rough, unfinished -->
-  <g filter="url(#roughTexture)">
-    <!-- Slab body -->
-    <path d="M60,180 Q80,170 150,175 Q250,165 350,172 Q450,160 550,168 Q650,158 720,165 L740,170 Q750,200 745,280 Q748,350 740,420 L720,430 Q650,440 550,435 Q450,445 350,438 Q250,448 150,440 Q80,445 60,438 L50,430 Q45,350 48,280 Q44,200 50,185 Z" fill="url(#rawWood)"/>
-    <!-- Bark edges -->
-    <path d="M50,185 Q45,170 60,180 Q80,170 150,175 Q250,165 350,172 Q450,160 550,168 Q650,158 720,165 L740,170 Q755,175 750,185 Q746,178 740,175 Q650,165 550,173 Q450,167 350,178 Q250,172 150,182 Q80,178 60,185 Q52,180 50,185 Z" fill="url(#rawBark)"/>
-    <path d="M50,430 Q45,440 60,438 Q80,445 150,440 Q250,448 350,438 Q450,445 550,435 Q650,440 720,430 L740,420 Q748,430 745,435 Q740,438 720,438 Q650,448 550,442 Q450,452 350,445 Q250,455 150,448 Q80,452 60,445 Q52,440 50,430 Z" fill="url(#rawBark)"/>
-    <!-- Rough grain lines -->
-    <path d="M80,220 Q200,215 400,218 Q600,212 720,216" stroke="#7a6038" stroke-width="1.5" fill="none" opacity="0.3"/>
-    <path d="M80,260 Q200,254 400,258 Q600,250 720,255" stroke="#7a6038" stroke-width="1" fill="none" opacity="0.25"/>
-    <path d="M80,300 Q200,295 400,298 Q600,292 720,296" stroke="#806440" stroke-width="2" fill="none" opacity="0.2"/>
-    <path d="M80,340 Q200,335 400,338 Q600,332 720,336" stroke="#7a6038" stroke-width="1" fill="none" opacity="0.25"/>
-    <path d="M80,380 Q200,375 400,378 Q600,372 720,376" stroke="#7a6038" stroke-width="1.5" fill="none" opacity="0.3"/>
-    <!-- Rough spots / knots -->
-    <circle cx="280" cy="290" r="18" fill="#6a5030" opacity="0.4"/>
-    <circle cx="280" cy="290" r="8" fill="#5a4020" opacity="0.5"/>
-    <circle cx="550" cy="350" r="12" fill="#6a5030" opacity="0.35"/>
-    <!-- Saw marks / rough texture indicators -->
-    <line x1="100" y1="200" x2="100" y2="410" stroke="#8a7050" stroke-width="0.5" opacity="0.2"/>
-    <line x1="200" y1="195" x2="200" y2="415" stroke="#8a7050" stroke-width="0.5" opacity="0.15"/>
-    <line x1="300" y1="192" x2="300" y2="418" stroke="#8a7050" stroke-width="0.5" opacity="0.2"/>
-    <line x1="400" y1="190" x2="400" y2="420" stroke="#8a7050" stroke-width="0.5" opacity="0.15"/>
-    <line x1="500" y1="188" x2="500" y2="418" stroke="#8a7050" stroke-width="0.5" opacity="0.2"/>
-    <line x1="600" y1="186" x2="600" y2="416" stroke="#8a7050" stroke-width="0.5" opacity="0.15"/>
-    <!-- Cracks -->
-    <path d="M520,172 Q525,200 518,230 Q522,250 515,268" stroke="#6a5030" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- ===== WORKSHOP BACKGROUND ===== -->
+  <!-- Wall -->
+  <rect width="800" height="340" fill="url(#workshopWall)" filter="url(#wallTexture)"/>
+  <!-- Horizontal wall boards -->
+  <line x1="0" y1="85" x2="800" y2="85" stroke="#937f6f" stroke-width="0.8" opacity="0.3"/>
+  <line x1="0" y1="170" x2="800" y2="170" stroke="#937f6f" stroke-width="0.8" opacity="0.3"/>
+  <line x1="0" y1="255" x2="800" y2="255" stroke="#937f6f" stroke-width="0.8" opacity="0.3"/>
+  <!-- Pegboard / tool hints on wall -->
+  <rect x="580" y="40" width="180" height="120" rx="3" fill="#8a7a6a" opacity="0.3" stroke="#7a6a5a" stroke-width="1"/>
+  <!-- Tool silhouettes on wall -->
+  <rect x="610" y="60" width="4" height="50" rx="2" fill="#6a5a4a" opacity="0.35"/>
+  <rect x="606" y="55" width="12" height="8" rx="1" fill="#6a5a4a" opacity="0.35"/>
+  <rect x="640" y="65" width="3" height="60" rx="1.5" fill="#6a5a4a" opacity="0.3"/>
+  <rect x="670" y="58" width="5" height="45" rx="2" fill="#6a5a4a" opacity="0.35"/>
+  <rect x="665" y="52" width="15" height="10" rx="2" fill="#6a5a4a" opacity="0.35"/>
+  <rect x="710" y="62" width="4" height="55" rx="2" fill="#6a5a4a" opacity="0.3"/>
+  <!-- Shelf -->
+  <rect x="20" y="60" width="200" height="8" rx="2" fill="#8a7055"/>
+  <rect x="20" y="68" width="200" height="3" fill="#6a5035" opacity="0.5"/>
+  <!-- Items on shelf -->
+  <rect x="35" y="30" width="25" height="30" rx="3" fill="#c44" opacity="0.5"/>
+  <rect x="70" y="35" width="22" height="25" rx="2" fill="#4a6a8a" opacity="0.4"/>
+  <rect x="100" y="20" width="18" height="40" rx="2" fill="#8a8040" opacity="0.4"/>
+  <rect x="150" y="38" width="30" height="22" rx="3" fill="#6a5a4a" opacity="0.4"/>
+
+  <!-- Concrete floor -->
+  <rect x="0" y="340" width="800" height="260" fill="url(#concreteFloor)" filter="url(#concreteTexture)"/>
+  <!-- Floor shadow gradient -->
+  <rect x="0" y="340" width="800" height="40" fill="rgba(0,0,0,0.12)"/>
+
+  <!-- ===== LEFT SAWHORSE ===== -->
+  <g>
+    <!-- Crossbeam -->
+    <rect x="100" y="270" width="120" height="14" rx="2" fill="url(#sawhorseWood)" opacity="0.9"/>
+    <rect x="100" y="270" width="120" height="3" fill="rgba(255,255,255,0.08)"/>
+    <!-- Front left leg -->
+    <line x1="115" y1="284" x2="90" y2="440" stroke="#a08060" stroke-width="8" stroke-linecap="round"/>
+    <line x1="115" y1="284" x2="90" y2="440" stroke="rgba(0,0,0,0.15)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Front right leg -->
+    <line x1="205" y1="284" x2="230" y2="440" stroke="#a08060" stroke-width="8" stroke-linecap="round"/>
+    <!-- Back left leg -->
+    <line x1="125" y1="284" x2="100" y2="430" stroke="#8a7050" stroke-width="7" stroke-linecap="round"/>
+    <!-- Back right leg -->
+    <line x1="195" y1="284" x2="220" y2="430" stroke="#8a7050" stroke-width="7" stroke-linecap="round"/>
+    <!-- Cross brace -->
+    <line x1="98" y1="380" x2="225" y2="380" stroke="#9a7858" stroke-width="5"/>
   </g>
-  <!-- Label -->
-  <rect x="20" y="20" width="160" height="50" rx="8" fill="rgba(62,39,35,0.9)"/>
-  <text x="100" y="42" font-family="Georgia, serif" font-size="16" fill="#faf3e0" text-anchor="middle" font-weight="bold">BEFORE</text>
-  <text x="100" y="58" font-family="Georgia, serif" font-size="11" fill="rgba(250,243,224,0.7)" text-anchor="middle">Raw Walnut Slab</text>
+
+  <!-- ===== RIGHT SAWHORSE ===== -->
+  <g>
+    <!-- Crossbeam -->
+    <rect x="560" y="265" width="120" height="14" rx="2" fill="url(#sawhorseWood)" opacity="0.9"/>
+    <rect x="560" y="265" width="120" height="3" fill="rgba(255,255,255,0.08)"/>
+    <!-- Front left leg -->
+    <line x1="575" y1="279" x2="550" y2="435" stroke="#a08060" stroke-width="8" stroke-linecap="round"/>
+    <!-- Front right leg -->
+    <line x1="665" y1="279" x2="690" y2="435" stroke="#a08060" stroke-width="8" stroke-linecap="round"/>
+    <line x1="665" y1="279" x2="690" y2="435" stroke="rgba(0,0,0,0.1)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Back left leg -->
+    <line x1="585" y1="279" x2="560" y2="425" stroke="#8a7050" stroke-width="7" stroke-linecap="round"/>
+    <!-- Back right leg -->
+    <line x1="655" y1="279" x2="680" y2="425" stroke="#8a7050" stroke-width="7" stroke-linecap="round"/>
+    <!-- Cross brace -->
+    <line x1="558" y1="375" x2="685" y2="375" stroke="#9a7858" stroke-width="5"/>
+  </g>
+
+  <!-- ===== RAW MESQUITE SLAB ===== -->
+  <g filter="url(#slabShadow)">
+    <!-- Slab thickness / edge (visible from slight angle) -->
+    <path d="M55,270 Q55,278 58,285 L742,275 Q745,268 745,260 Z" fill="#7a5230" opacity="0.7"/>
+
+    <!-- Main slab body -->
+    <g filter="url(#roughSurface)">
+      <path d="M55,175 Q70,168 130,172 Q180,166 240,170 Q310,162 380,167 Q440,160 510,165 Q570,158 630,163 Q690,156 735,162 L745,165 Q748,190 746,220 Q749,245 745,260 L735,268 Q690,278 630,272 Q570,280 510,275 Q440,282 380,277 Q310,284 240,278 Q180,286 130,280 Q70,288 55,282 L48,275 Q44,248 46,220 Q43,192 48,178 Z" fill="url(#rawMesquite)"/>
+      <!-- Heartwood coloring -->
+      <path d="M55,175 Q70,168 130,172 Q180,166 240,170 Q310,162 380,167 Q440,160 510,165 Q570,158 630,163 Q690,156 735,162 L745,165 Q748,190 746,220 Q749,245 745,260 L735,268 Q690,278 630,272 Q570,280 510,275 Q440,282 380,277 Q310,284 240,278 Q180,286 130,280 Q70,288 55,282 L48,275 Q44,248 46,220 Q43,192 48,178 Z" fill="url(#heartwood)"/>
+    </g>
+
+    <!-- Bark edge - top (irregular, thick) -->
+    <g filter="url(#barkBump)">
+      <path d="M48,178 Q43,168 55,175 Q70,168 100,170 Q115,165 130,172 Q155,164 180,166 Q210,162 240,170 Q275,160 310,162 Q345,158 380,167 Q410,157 440,160 Q475,155 510,165 Q540,155 570,158 Q600,153 630,163 Q660,154 690,156 Q715,153 735,162 L745,165 Q750,168 748,175 Q746,170 735,168 Q690,162 630,168 Q570,164 510,170 Q440,166 380,172 Q310,168 240,175 Q180,172 130,178 Q70,174 55,180 Q50,176 48,178 Z" fill="url(#barkTop)"/>
+      <!-- Bark details - top -->
+      <path d="M80,170 Q82,167 85,170 Q90,166 95,169" stroke="#2a1808" stroke-width="0.8" fill="none" opacity="0.5"/>
+      <path d="M200,164 Q205,160 210,164 Q215,160 220,163" stroke="#2a1808" stroke-width="0.8" fill="none" opacity="0.5"/>
+      <path d="M400,160 Q405,156 410,160 Q415,156 420,159" stroke="#2a1808" stroke-width="0.8" fill="none" opacity="0.4"/>
+      <path d="M600,156 Q605,152 610,157 Q615,153 620,156" stroke="#2a1808" stroke-width="0.8" fill="none" opacity="0.5"/>
+    </g>
+
+    <!-- Bark edge - bottom (irregular, thick) -->
+    <g filter="url(#barkBump)">
+      <path d="M48,275 Q43,285 55,282 Q70,288 100,285 Q130,290 160,286 Q180,292 210,286 Q240,290 280,284 Q310,292 350,286 Q380,290 410,284 Q440,290 480,285 Q510,292 550,286 Q570,290 600,284 Q630,290 660,285 Q690,288 720,282 Q735,286 745,260 L748,268 Q750,275 746,280 Q740,288 720,286 Q690,292 660,288 Q630,294 600,289 Q570,295 540,290 Q510,296 480,290 Q440,296 410,290 Q380,295 350,290 Q310,296 280,290 Q240,295 210,290 Q180,296 160,291 Q130,296 100,290 Q70,294 55,288 Q50,282 48,275 Z" fill="url(#barkBottom)"/>
+      <!-- Bark details - bottom -->
+      <path d="M120,288 Q125,292 130,288 Q135,293 140,289" stroke="#2a1808" stroke-width="0.8" fill="none" opacity="0.5"/>
+      <path d="M350,290 Q355,294 360,290 Q365,295 370,291" stroke="#2a1808" stroke-width="0.8" fill="none" opacity="0.4"/>
+      <path d="M550,288 Q555,292 560,289 Q565,294 570,290" stroke="#2a1808" stroke-width="0.8" fill="none" opacity="0.5"/>
+    </g>
+
+    <!-- Grain lines - rough and irregular -->
+    <path d="M75,195 Q150,190 250,193 Q380,188 500,192 Q620,186 725,190" stroke="#7a5530" stroke-width="1.8" fill="none" opacity="0.22"/>
+    <path d="M70,208 Q180,202 300,206 Q420,199 540,204 Q660,197 730,202" stroke="#7a5530" stroke-width="1.2" fill="none" opacity="0.18"/>
+    <path d="M68,222 Q200,216 350,220 Q480,213 600,218 Q700,212 732,216" stroke="#805828" stroke-width="2" fill="none" opacity="0.15"/>
+    <path d="M72,236 Q170,230 280,234 Q400,227 520,232 Q640,226 728,230" stroke="#7a5530" stroke-width="1" fill="none" opacity="0.2"/>
+    <path d="M74,250 Q190,244 320,248 Q450,241 570,246 Q680,240 726,244" stroke="#7a5530" stroke-width="1.5" fill="none" opacity="0.18"/>
+    <path d="M70,262 Q200,256 340,260 Q470,254 590,258 Q700,252 730,256" stroke="#805828" stroke-width="1.2" fill="none" opacity="0.2"/>
+
+    <!-- Knots -->
+    <ellipse cx="260" cy="225" rx="20" ry="16" fill="#6a4a25" opacity="0.45"/>
+    <ellipse cx="260" cy="225" rx="12" ry="9" fill="#5a3a18" opacity="0.5"/>
+    <ellipse cx="260" cy="225" rx="5" ry="4" fill="#4a2a10" opacity="0.4"/>
+    <!-- Second knot -->
+    <ellipse cx="580" cy="245" rx="14" ry="11" fill="#6a4a25" opacity="0.4"/>
+    <ellipse cx="580" cy="245" rx="7" ry="5" fill="#5a3a18" opacity="0.45"/>
+
+    <!-- Major crack / check -->
+    <path d="M485,167 Q490,185 483,200 Q488,218 480,235 Q485,248 478,262" stroke="#5a3a18" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <path d="M486,167 Q491,182 485,198 Q490,215 482,232 Q487,245 480,258" stroke="#4a2a10" stroke-width="1" fill="none" opacity="0.3"/>
+    <!-- Minor checks -->
+    <path d="M320,170 Q323,182 318,192" stroke="#6a4a28" stroke-width="1.5" fill="none" opacity="0.35"/>
+    <path d="M680,162 Q683,178 677,190 Q681,200 676,208" stroke="#6a4a28" stroke-width="1.2" fill="none" opacity="0.3"/>
+
+    <!-- Saw marks (vertical lines from milling) -->
+    <line x1="100" y1="178" x2="100" y2="280" stroke="#8a6540" stroke-width="0.5" opacity="0.12"/>
+    <line x1="150" y1="175" x2="150" y2="282" stroke="#8a6540" stroke-width="0.5" opacity="0.1"/>
+    <line x1="200" y1="172" x2="200" y2="280" stroke="#8a6540" stroke-width="0.5" opacity="0.12"/>
+    <line x1="250" y1="170" x2="250" y2="280" stroke="#8a6540" stroke-width="0.5" opacity="0.1"/>
+    <line x1="300" y1="168" x2="300" y2="282" stroke="#8a6540" stroke-width="0.5" opacity="0.12"/>
+    <line x1="350" y1="166" x2="350" y2="280" stroke="#8a6540" stroke-width="0.5" opacity="0.1"/>
+    <line x1="400" y1="165" x2="400" y2="280" stroke="#8a6540" stroke-width="0.5" opacity="0.12"/>
+    <line x1="450" y1="163" x2="450" y2="282" stroke="#8a6540" stroke-width="0.5" opacity="0.1"/>
+    <line x1="500" y1="164" x2="500" y2="280" stroke="#8a6540" stroke-width="0.5" opacity="0.12"/>
+    <line x1="550" y1="162" x2="550" y2="278" stroke="#8a6540" stroke-width="0.5" opacity="0.1"/>
+    <line x1="600" y1="160" x2="600" y2="276" stroke="#8a6540" stroke-width="0.5" opacity="0.12"/>
+    <line x1="650" y1="159" x2="650" y2="274" stroke="#8a6540" stroke-width="0.5" opacity="0.1"/>
+    <line x1="700" y1="158" x2="700" y2="272" stroke="#8a6540" stroke-width="0.5" opacity="0.12"/>
+
+    <!-- Rough surface highlight (light catching ridges) -->
+    <path d="M80,200 Q200,194 400,198 Q600,192 720,196" stroke="rgba(255,240,200,0.08)" stroke-width="3" fill="none"/>
+    <path d="M80,240 Q200,234 400,238 Q600,232 720,236" stroke="rgba(255,240,200,0.06)" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- ===== CHALK MARKINGS ===== -->
+  <text x="350" y="210" font-family="'Segoe Script', 'Comic Sans MS', cursive" font-size="22" fill="rgba(255,255,255,0.55)" transform="rotate(-3, 350, 210)">MESQUITE</text>
+  <text x="360" y="240" font-family="'Segoe Script', 'Comic Sans MS', cursive" font-size="16" fill="rgba(255,255,255,0.45)" transform="rotate(-2, 360, 240)">72" x 28"</text>
+
+  <!-- ===== SAWDUST ON FLOOR ===== -->
+  <ellipse cx="400" cy="420" rx="280" ry="40" fill="#b09060" opacity="0.08"/>
+  <circle cx="320" cy="400" r="1.5" fill="#c0a070" opacity="0.3"/>
+  <circle cx="380" cy="410" r="1" fill="#c0a070" opacity="0.25"/>
+  <circle cx="450" cy="405" r="1.5" fill="#c0a070" opacity="0.3"/>
+  <circle cx="350" cy="415" r="1" fill="#c0a070" opacity="0.2"/>
+  <circle cx="420" cy="398" r="1.5" fill="#c0a070" opacity="0.25"/>
+  <circle cx="500" cy="412" r="1" fill="#c0a070" opacity="0.3"/>
+  <circle cx="280" cy="408" r="1" fill="#c0a070" opacity="0.2"/>
+  <circle cx="520" cy="402" r="1.5" fill="#c0a070" opacity="0.25"/>
+
+  <!-- ===== MOISTURE METER ON SLAB ===== -->
+  <g transform="translate(620, 195) rotate(15)">
+    <rect x="0" y="0" width="55" height="30" rx="4" fill="#2a2a2a"/>
+    <rect x="0" y="0" width="55" height="30" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <rect x="5" y="4" width="30" height="14" rx="2" fill="#1a3a1a"/>
+    <text x="20" y="15" font-family="'Courier New', monospace" font-size="10" fill="#4aff4a" text-anchor="middle" font-weight="bold">12%</text>
+    <!-- Pins -->
+    <line x1="42" y1="30" x2="42" y2="42" stroke="#888" stroke-width="2"/>
+    <line x1="50" y1="30" x2="50" y2="42" stroke="#888" stroke-width="2"/>
+  </g>
+
+  <!-- ===== TAPE MEASURE HINT ===== -->
+  <path d="M40,320 Q35,340 30,380 Q28,400 32,420" stroke="#f0c020" stroke-width="6" fill="none" opacity="0.5"/>
+  <path d="M40,320 Q35,340 30,380 Q28,400 32,420" stroke="#e8b010" stroke-width="4" fill="none" opacity="0.4"/>
+  <!-- Tick marks -->
+  <line x1="37" y1="340" x2="33" y2="340" stroke="#222" stroke-width="0.8" opacity="0.4"/>
+  <line x1="35" y1="360" x2="31" y2="360" stroke="#222" stroke-width="0.8" opacity="0.4"/>
+  <line x1="33" y1="380" x2="29" y2="380" stroke="#222" stroke-width="0.8" opacity="0.4"/>
+  <line x1="34" y1="400" x2="30" y2="400" stroke="#222" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- ===== OVERHEAD WARM LIGHT ===== -->
+  <rect width="800" height="600" fill="url(#overheadLight)"/>
+
+  <!-- ===== LABEL ===== -->
+  <g>
+    <rect x="20" y="510" width="220" height="65" rx="8" fill="rgba(42,28,18,0.92)"/>
+    <rect x="20" y="510" width="220" height="65" rx="8" fill="none" stroke="rgba(180,140,90,0.3)" stroke-width="1"/>
+    <text x="130" y="538" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#faf3e0" text-anchor="middle" font-weight="bold" letter-spacing="3">BEFORE</text>
+    <text x="130" y="558" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="rgba(250,243,224,0.6)" text-anchor="middle" letter-spacing="1">Raw Texas Mesquite Slab</text>
+  </g>
 </svg>

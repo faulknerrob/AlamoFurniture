@@ -1,83 +1,304 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
   <defs>
-    <linearGradient id="diningRoom" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f7f2ea"/>
-      <stop offset="60%" stop-color="#ede5d8"/>
-      <stop offset="100%" stop-color="#c4b8a8"/>
+    <!-- Room wall - warm white -->
+    <linearGradient id="roomWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5efe5"/>
+      <stop offset="30%" stop-color="#f0e8dc"/>
+      <stop offset="70%" stop-color="#ebe2d4"/>
+      <stop offset="100%" stop-color="#e5dccf"/>
     </linearGradient>
-    <linearGradient id="finishedWood" x1="0" y1="0" x2="1" y2="0.1">
-      <stop offset="0%" stop-color="#5c3a1e"/>
-      <stop offset="10%" stop-color="#6b442a"/>
-      <stop offset="25%" stop-color="#5a3518"/>
-      <stop offset="40%" stop-color="#6d4630"/>
-      <stop offset="55%" stop-color="#5e3820"/>
-      <stop offset="70%" stop-color="#6a4228"/>
-      <stop offset="85%" stop-color="#5c3a1e"/>
-      <stop offset="100%" stop-color="#6b442a"/>
+    <!-- Hardwood floor -->
+    <linearGradient id="hardwoodFloor" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0%" stop-color="#b89870"/>
+      <stop offset="50%" stop-color="#a88860"/>
+      <stop offset="100%" stop-color="#987850"/>
     </linearGradient>
-    <linearGradient id="glossSheen" x1="0" y1="0" x2="0.3" y2="1">
-      <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
-      <stop offset="40%" stop-color="rgba(255,255,255,0.05)"/>
-      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    <!-- Window light -->
+    <radialGradient id="windowLight" cx="0.7" cy="0.2" r="0.6">
+      <stop offset="0%" stop-color="rgba(255,248,230,0.35)"/>
+      <stop offset="40%" stop-color="rgba(255,245,220,0.12)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+    <!-- Finished mesquite - rich, deep, polished -->
+    <linearGradient id="finishedMesquite" x1="0" y1="0" x2="1" y2="0.05">
+      <stop offset="0%" stop-color="#5a3218"/>
+      <stop offset="8%" stop-color="#6a3c20"/>
+      <stop offset="15%" stop-color="#4e2a12"/>
+      <stop offset="22%" stop-color="#643822"/>
+      <stop offset="30%" stop-color="#553016"/>
+      <stop offset="38%" stop-color="#6e4028"/>
+      <stop offset="45%" stop-color="#4c2810"/>
+      <stop offset="52%" stop-color="#603620"/>
+      <stop offset="60%" stop-color="#5a3218"/>
+      <stop offset="68%" stop-color="#6a3e26"/>
+      <stop offset="75%" stop-color="#502c14"/>
+      <stop offset="82%" stop-color="#643a24"/>
+      <stop offset="90%" stop-color="#583018"/>
+      <stop offset="100%" stop-color="#5a3218"/>
     </linearGradient>
-    <linearGradient id="finishedBark" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#3e2510"/>
-      <stop offset="50%" stop-color="#2d1a0a"/>
-      <stop offset="100%" stop-color="#3a2210"/>
+    <!-- Heartwood glow -->
+    <radialGradient id="finishedHeartwood" cx="0.45" cy="0.5" rx="0.3" ry="0.45">
+      <stop offset="0%" stop-color="#7a4a28" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#5a3218" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Gloss / satin finish sheen -->
+    <linearGradient id="satinFinish" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="30%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="60%" stop-color="rgba(255,255,255,0.02)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.1)"/>
     </linearGradient>
-    <linearGradient id="leg" x1="0" y1="0" x2="1" y2="0">
+    <!-- Window reflection on table -->
+    <linearGradient id="windowReflection" x1="0.5" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="rgba(255,252,240,0.12)"/>
+      <stop offset="40%" stop-color="rgba(255,250,235,0.04)"/>
+      <stop offset="100%" stop-color="rgba(255,248,230,0)"/>
+    </linearGradient>
+    <!-- Finished bark - sealed, darker -->
+    <linearGradient id="sealedBark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e1a0a"/>
+      <stop offset="50%" stop-color="#221208"/>
+      <stop offset="100%" stop-color="#2a180c"/>
+    </linearGradient>
+    <!-- Steel leg material -->
+    <linearGradient id="steelLeg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#1a1a1a"/>
-      <stop offset="50%" stop-color="#333"/>
+      <stop offset="30%" stop-color="#2a2a2a"/>
+      <stop offset="50%" stop-color="#353535"/>
+      <stop offset="70%" stop-color="#2a2a2a"/>
       <stop offset="100%" stop-color="#1a1a1a"/>
     </linearGradient>
-    <filter id="tableShad">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.3"/>
+    <!-- Pendant light -->
+    <radialGradient id="pendantGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="rgba(255,220,150,0.6)"/>
+      <stop offset="40%" stop-color="rgba(255,210,130,0.2)"/>
+      <stop offset="100%" stop-color="rgba(255,200,120,0)"/>
+    </radialGradient>
+    <!-- Smooth finished surface -->
+    <filter id="smoothFinish" x="-2%" y="-2%" width="104%" height="104%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.5 1.5" numOctaves="3" seed="5" result="grain"/>
+      <feColorMatrix type="saturate" values="0" in="grain" result="bwGrain"/>
+      <feBlend in="SourceGraphic" in2="bwGrain" mode="soft-light"/>
     </filter>
-    <filter id="smoothGrain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
-      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
-      <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply"/>
+    <!-- Table shadow -->
+    <filter id="tableShadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.25"/>
     </filter>
+    <!-- Floor texture -->
+    <filter id="floorGrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.08 0.4" numOctaves="4" seed="15"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
+    <!-- Soft wall texture -->
+    <filter id="wallGrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.4" numOctaves="2" seed="8"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
+    <!-- Epoxy fill glow -->
+    <linearGradient id="epoxyFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1a0a"/>
+      <stop offset="50%" stop-color="#1a1008"/>
+      <stop offset="100%" stop-color="#2a1a0c"/>
+    </linearGradient>
+    <!-- Butterfly joint -->
+    <linearGradient id="butterflyWood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8c888"/>
+      <stop offset="50%" stop-color="#d4b070"/>
+      <stop offset="100%" stop-color="#c8a460"/>
+    </linearGradient>
   </defs>
-  <!-- Room background -->
-  <rect width="800" height="600" fill="url(#diningRoom)"/>
-  <!-- Floor -->
-  <rect x="0" y="420" width="800" height="180" fill="#c4b098" opacity="0.5"/>
-  <!-- Table with legs -->
-  <g filter="url(#tableShad)">
-    <!-- Steel hairpin legs -->
-    <path d="M140,340 L120,530" stroke="url(#leg)" stroke-width="4" stroke-linecap="round"/>
-    <path d="M140,340 L155,530" stroke="url(#leg)" stroke-width="4" stroke-linecap="round"/>
-    <path d="M660,330 L645,530" stroke="url(#leg)" stroke-width="4" stroke-linecap="round"/>
-    <path d="M660,330 L680,530" stroke="url(#leg)" stroke-width="4" stroke-linecap="round"/>
-    <!-- Front legs -->
-    <path d="M180,355 L165,530" stroke="url(#leg)" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M180,355 L195,530" stroke="url(#leg)" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M620,348 L605,530" stroke="url(#leg)" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M620,348 L635,530" stroke="url(#leg)" stroke-width="3.5" stroke-linecap="round"/>
-    <!-- Table top - finished slab -->
-    <g filter="url(#smoothGrain)">
-      <!-- Edge/thickness -->
-      <path d="M80,320 Q80,325 82,340 Q85,355 88,360 L712,345 Q715,340 718,325 Q720,315 720,310 Z" fill="#4a2e14"/>
-      <!-- Live edge bark (back) -->
-      <path d="M80,280 Q100,275 160,278 Q260,270 360,274 Q460,266 560,272 Q640,265 700,270 L720,274 Q722,278 720,285 Q718,290 720,295 L700,298 Q640,305 560,300 Q460,308 360,302 Q260,310 160,305 Q100,310 80,308 Q78,300 80,292 Q78,285 80,280 Z" fill="url(#finishedBark)"/>
+
+  <!-- ===== ROOM BACKGROUND ===== -->
+  <!-- Wall -->
+  <rect width="800" height="380" fill="url(#roomWall)" filter="url(#wallGrain)"/>
+
+  <!-- Baseboard -->
+  <rect x="0" y="365" width="800" height="15" fill="#e0d5c5"/>
+  <rect x="0" y="365" width="800" height="2" fill="#d5c8b5"/>
+  <rect x="0" y="378" width="800" height="2" fill="rgba(0,0,0,0.08)"/>
+
+  <!-- Hardwood floor -->
+  <rect x="0" y="380" width="800" height="220" fill="url(#hardwoodFloor)" filter="url(#floorGrain)"/>
+  <!-- Floor board lines -->
+  <line x1="0" y1="420" x2="800" y2="420" stroke="#8a7048" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#8a7048" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="500" x2="800" y2="500" stroke="#8a7048" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="540" x2="800" y2="540" stroke="#8a7048" stroke-width="0.5" opacity="0.15"/>
+  <!-- Vertical board joints -->
+  <line x1="120" y1="380" x2="120" y2="420" stroke="#8a7048" stroke-width="0.3" opacity="0.1"/>
+  <line x1="350" y1="380" x2="350" y2="420" stroke="#8a7048" stroke-width="0.3" opacity="0.1"/>
+  <line x1="580" y1="380" x2="580" y2="420" stroke="#8a7048" stroke-width="0.3" opacity="0.1"/>
+  <line x1="230" y1="420" x2="230" y2="460" stroke="#8a7048" stroke-width="0.3" opacity="0.1"/>
+  <line x1="460" y1="420" x2="460" y2="460" stroke="#8a7048" stroke-width="0.3" opacity="0.1"/>
+  <line x1="690" y1="420" x2="690" y2="460" stroke="#8a7048" stroke-width="0.3" opacity="0.1"/>
+
+  <!-- ===== WINDOW ON WALL ===== -->
+  <g>
+    <!-- Window frame -->
+    <rect x="500" y="40" width="200" height="260" rx="2" fill="#d8cfc0" stroke="#c5b8a5" stroke-width="3"/>
+    <!-- Window panes -->
+    <rect x="508" y="48" width="88" height="120" fill="#d0e4f0"/>
+    <rect x="604" y="48" width="88" height="120" fill="#c8dce8"/>
+    <rect x="508" y="176" width="88" height="116" fill="#c0d8e5"/>
+    <rect x="604" y="176" width="88" height="116" fill="#b8d0e0"/>
+    <!-- Light through window -->
+    <rect x="508" y="48" width="88" height="120" fill="rgba(255,248,230,0.3)"/>
+    <rect x="604" y="48" width="88" height="120" fill="rgba(255,248,230,0.25)"/>
+    <!-- Window mullions -->
+    <rect x="596" y="48" width="8" height="244" fill="#d8cfc0"/>
+    <rect x="508" y="168" width="184" height="8" fill="#d8cfc0"/>
+    <!-- Window sill -->
+    <rect x="495" y="296" width="214" height="10" rx="2" fill="#d0c5b5"/>
+    <rect x="495" y="296" width="214" height="2" fill="rgba(255,255,255,0.15)"/>
+    <!-- Small plant on windowsill -->
+    <rect x="570" y="275" width="22" height="22" rx="3" fill="#c9a070"/>
+    <circle cx="581" cy="268" r="12" fill="#5a8a45" opacity="0.8"/>
+    <circle cx="575" cy="272" r="8" fill="#4a7a38" opacity="0.7"/>
+    <circle cx="588" cy="270" r="9" fill="#6a9a50" opacity="0.75"/>
+  </g>
+
+  <!-- ===== FRAMED ART ON WALL ===== -->
+  <g>
+    <rect x="100" y="80" width="160" height="120" rx="2" fill="#3a3530" stroke="#4a4540" stroke-width="4"/>
+    <rect x="112" y="92" width="136" height="96" fill="#e8ddd0"/>
+    <!-- Abstract landscape art -->
+    <path d="M112,170 Q150,140 180,155 Q210,130 248,145 L248,188 L112,188 Z" fill="#8aaa75" opacity="0.5"/>
+    <path d="M112,175 Q160,155 200,165 Q230,148 248,158 L248,188 L112,188 Z" fill="#7a9a65" opacity="0.6"/>
+    <circle cx="220" cy="115" r="12" fill="#f0d890" opacity="0.5"/>
+  </g>
+
+  <!-- ===== PENDANT LIGHT ===== -->
+  <g>
+    <line x1="400" y1="0" x2="400" y2="60" stroke="#1a1a1a" stroke-width="1.5"/>
+    <path d="M380,60 Q380,55 385,52 L415,52 Q420,55 420,60 L418,80 Q415,90 400,95 Q385,90 382,80 Z" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+    <!-- Bulb glow -->
+    <ellipse cx="400" cy="100" rx="30" ry="20" fill="url(#pendantGlow)"/>
+    <!-- Light cone on table -->
+    <path d="M370,100 L280,280 L520,280 L430,100 Z" fill="rgba(255,235,190,0.04)"/>
+  </g>
+
+  <!-- ===== DINING TABLE ===== -->
+  <g filter="url(#tableShadow)">
+    <!-- ===== STEEL TRESTLE BASE ===== -->
+    <!-- Left trestle -->
+    <rect x="140" y="320" width="50" height="6" rx="2" fill="url(#steelLeg)"/>
+    <!-- Left vertical -->
+    <rect x="162" y="326" width="6" height="100" fill="url(#steelLeg)"/>
+    <!-- Left feet -->
+    <rect x="130" y="422" width="70" height="6" rx="2" fill="url(#steelLeg)"/>
+    <!-- Highlight on steel -->
+    <rect x="164" y="326" width="1.5" height="100" fill="rgba(255,255,255,0.08)"/>
+
+    <!-- Right trestle -->
+    <rect x="600" y="315" width="50" height="6" rx="2" fill="url(#steelLeg)"/>
+    <!-- Right vertical -->
+    <rect x="622" y="321" width="6" height="100" fill="url(#steelLeg)"/>
+    <!-- Right feet -->
+    <rect x="590" y="417" width="70" height="6" rx="2" fill="url(#steelLeg)"/>
+    <rect x="624" y="321" width="1.5" height="100" fill="rgba(255,255,255,0.08)"/>
+
+    <!-- Stretcher bar connecting trestles -->
+    <rect x="168" y="380" width="454" height="5" rx="2" fill="#222"/>
+    <rect x="168" y="380" width="454" height="1" fill="rgba(255,255,255,0.06)"/>
+
+    <!-- ===== TABLE TOP ===== -->
+    <!-- Table edge / thickness -->
+    <path d="M60,295 Q60,300 62,310 Q64,318 68,322 L732,310 Q736,306 738,298 Q740,292 740,288 Z" fill="#3a2010" opacity="0.8"/>
+
+    <!-- Main table surface -->
+    <g filter="url(#smoothFinish)">
+      <!-- Live edge bark - back -->
+      <path d="M60,250 Q80,244 130,248 Q190,240 260,245 Q330,237 400,242 Q470,234 540,240 Q600,233 660,238 Q710,232 730,236 L740,240 Q742,246 740,254 Q738,260 740,268 L730,272 Q710,280 660,274 Q600,282 540,276 Q470,284 400,278 Q330,286 260,280 Q190,288 130,282 Q80,290 60,286 Q58,278 60,268 Q58,258 60,250 Z" fill="url(#sealedBark)"/>
+
       <!-- Top surface -->
-      <path d="M80,280 Q100,275 160,278 Q260,270 360,274 Q460,266 560,272 Q640,265 700,270 L720,274 L720,310 Q640,318 560,312 Q460,322 360,315 Q260,325 160,318 Q100,322 80,320 Z" fill="url(#finishedWood)"/>
-      <!-- Gloss/finish sheen -->
-      <path d="M80,280 Q100,275 160,278 Q260,270 360,274 Q460,266 560,272 Q640,265 700,270 L720,274 L720,310 Q640,318 560,312 Q460,322 360,315 Q260,325 160,318 Q100,322 80,320 Z" fill="url(#glossSheen)"/>
-      <!-- Refined grain lines -->
-      <path d="M100,288 Q250,282 400,286 Q550,280 700,284" stroke="#4a2e14" stroke-width="0.8" fill="none" opacity="0.25"/>
-      <path d="M100,294 Q250,288 400,292 Q550,286 700,290" stroke="#4a2e14" stroke-width="0.5" fill="none" opacity="0.2"/>
-      <path d="M100,300 Q250,294 400,298 Q550,292 700,296" stroke="#4a2e14" stroke-width="0.8" fill="none" opacity="0.25"/>
-      <path d="M100,306 Q250,300 400,304 Q550,298 700,302" stroke="#4a2e14" stroke-width="0.5" fill="none" opacity="0.2"/>
+      <path d="M60,250 Q80,244 130,248 Q190,240 260,245 Q330,237 400,242 Q470,234 540,240 Q600,233 660,238 Q710,232 730,236 L740,240 L740,288 Q710,298 660,292 Q600,300 540,294 Q470,302 400,296 Q330,304 260,298 Q190,306 130,300 Q80,306 60,302 L60,250 Z" fill="url(#finishedMesquite)"/>
+
+      <!-- Heartwood depth -->
+      <path d="M60,250 Q80,244 130,248 Q190,240 260,245 Q330,237 400,242 Q470,234 540,240 Q600,233 660,238 Q710,232 730,236 L740,240 L740,288 Q710,298 660,292 Q600,300 540,294 Q470,302 400,296 Q330,304 260,298 Q190,306 130,300 Q80,306 60,302 L60,250 Z" fill="url(#finishedHeartwood)"/>
+
+      <!-- Fine grain lines - smooth and polished -->
+      <path d="M80,260 Q200,254 350,258 Q500,252 650,256 Q710,252 730,254" stroke="#3a1e0c" stroke-width="0.8" fill="none" opacity="0.2"/>
+      <path d="M80,268 Q220,262 380,266 Q520,260 660,264 Q710,260 730,262" stroke="#3a1e0c" stroke-width="0.5" fill="none" opacity="0.15"/>
+      <path d="M80,276 Q200,270 350,274 Q500,268 650,272 Q710,268 730,270" stroke="#3a1e0c" stroke-width="0.8" fill="none" opacity="0.2"/>
+      <path d="M80,284 Q220,278 380,282 Q520,276 660,280 Q710,276 730,278" stroke="#3a1e0c" stroke-width="0.5" fill="none" opacity="0.15"/>
+      <path d="M80,292 Q200,286 350,290 Q500,284 650,288 Q710,284 730,286" stroke="#3a1e0c" stroke-width="0.8" fill="none" opacity="0.18"/>
+
+      <!-- Filled knot with epoxy (dark, smooth) -->
+      <ellipse cx="300" cy="272" rx="18" ry="14" fill="url(#epoxyFill)" opacity="0.6"/>
+      <ellipse cx="300" cy="272" rx="18" ry="14" fill="rgba(255,255,255,0.03)"/>
+
+      <!-- Butterfly / bow-tie joint (signature detail) -->
+      <polygon points="470,262 480,255 490,262 490,278 480,285 470,278" fill="url(#butterflyWood)" stroke="#b89860" stroke-width="0.5" opacity="0.85"/>
+      <!-- Butterfly grain detail -->
+      <line x1="473" y1="264" x2="480" y2="258" stroke="#c0a868" stroke-width="0.4" opacity="0.4"/>
+      <line x1="487" y1="264" x2="480" y2="258" stroke="#c0a868" stroke-width="0.4" opacity="0.4"/>
+      <line x1="473" y1="276" x2="480" y2="282" stroke="#c0a868" stroke-width="0.4" opacity="0.4"/>
+      <line x1="487" y1="276" x2="480" y2="282" stroke="#c0a868" stroke-width="0.4" opacity="0.4"/>
+
+      <!-- Satin finish sheen -->
+      <path d="M60,250 Q80,244 130,248 Q190,240 260,245 Q330,237 400,242 Q470,234 540,240 Q600,233 660,238 Q710,232 730,236 L740,240 L740,288 Q710,298 660,292 Q600,300 540,294 Q470,302 400,296 Q330,304 260,298 Q190,306 130,300 Q80,306 60,302 L60,250 Z" fill="url(#satinFinish)"/>
+
+      <!-- Window reflection on polished surface -->
+      <path d="M450,252 Q500,248 560,252 Q600,248 640,252 L640,282 Q600,286 560,282 Q500,286 450,282 Z" fill="url(#windowReflection)" opacity="0.6"/>
+
+      <!-- Live edge bark - front -->
+      <path d="M60,286 Q58,292 60,302 Q80,306 130,300 Q190,306 260,298 Q330,304 400,296 Q470,302 540,294 Q600,300 660,292 Q710,298 740,288 Q742,294 740,295 L738,298 Q710,306 660,300 Q600,308 540,302 Q470,310 400,304 Q330,312 260,306 Q190,314 130,308 Q80,314 60,310 Q58,304 60,295 Z" fill="url(#sealedBark)"/>
     </g>
   </g>
-  <!-- Tabletop decoration - small vase -->
-  <ellipse cx="400" cy="268" rx="15" ry="6" fill="rgba(0,0,0,0.1)"/>
-  <path d="M390,268 Q388,248 392,235 Q396,225 400,222 Q404,225 408,235 Q412,248 410,268 Z" fill="#c9a87c"/>
-  <ellipse cx="400" cy="220" rx="10" ry="5" fill="#4a7a3a" opacity="0.8"/>
-  <!-- Label -->
-  <rect x="20" y="20" width="160" height="50" rx="8" fill="rgba(62,39,35,0.9)"/>
-  <text x="100" y="42" font-family="Georgia, serif" font-size="16" fill="#faf3e0" text-anchor="middle" font-weight="bold">AFTER</text>
-  <text x="100" y="58" font-family="Georgia, serif" font-size="11" fill="rgba(250,243,224,0.7)" text-anchor="middle">Finished Dining Table</text>
+
+  <!-- ===== TABLE SETTING ===== -->
+  <!-- Ceramic vase with dried arrangement -->
+  <g>
+    <ellipse cx="380" cy="240" rx="18" ry="7" fill="rgba(0,0,0,0.06)"/>
+    <path d="M366,240 Q364,222 368,205 Q372,192 380,188 Q388,192 392,205 Q396,222 394,240 Z" fill="#e8ddd0" stroke="#d5c8b8" stroke-width="0.5"/>
+    <!-- Dried pampas/stems -->
+    <line x1="378" y1="188" x2="370" y2="155" stroke="#c8a878" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="380" y1="188" x2="382" y2="148" stroke="#d0b080" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="383" y1="188" x2="395" y2="152" stroke="#c0a070" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Fluffy tops -->
+    <ellipse cx="370" cy="150" rx="5" ry="8" fill="#e0c8a0" opacity="0.6" transform="rotate(-15, 370, 150)"/>
+    <ellipse cx="382" cy="143" rx="4" ry="9" fill="#dcc498" opacity="0.6"/>
+    <ellipse cx="395" cy="148" rx="5" ry="7" fill="#d8c090" opacity="0.6" transform="rotate(12, 395, 148)"/>
+  </g>
+
+  <!-- Small candle -->
+  <g>
+    <rect x="240" y="250" width="16" height="20" rx="8" fill="#f0e8d8" stroke="#e0d5c5" stroke-width="0.5"/>
+    <ellipse cx="248" cy="250" rx="8" ry="3" fill="#e8ddd0"/>
+    <line x1="248" y1="250" x2="248" y2="244" stroke="#333" stroke-width="0.5"/>
+    <circle cx="248" cy="243" r="2.5" fill="#ffcc44" opacity="0.7"/>
+    <circle cx="248" cy="243" r="1.5" fill="#fff4cc" opacity="0.9"/>
+  </g>
+
+  <!-- ===== CHAIRS (subtle, background) ===== -->
+  <!-- Left chair -->
+  <g opacity="0.25">
+    <rect x="20" y="320" width="50" height="5" rx="2" fill="#5a4030"/>
+    <rect x="25" y="240" width="40" height="80" rx="3" fill="#5a4030"/>
+    <line x1="30" y1="325" x2="30" y2="430" stroke="#5a4030" stroke-width="4"/>
+    <line x1="60" y1="325" x2="60" y2="430" stroke="#5a4030" stroke-width="4"/>
+  </g>
+  <!-- Right chair -->
+  <g opacity="0.25">
+    <rect x="720" y="316" width="50" height="5" rx="2" fill="#5a4030"/>
+    <rect x="725" y="236" width="40" height="80" rx="3" fill="#5a4030"/>
+    <line x1="730" y1="321" x2="730" y2="426" stroke="#5a4030" stroke-width="4"/>
+    <line x1="760" y1="321" x2="760" y2="426" stroke="#5a4030" stroke-width="4"/>
+  </g>
+
+  <!-- ===== WINDOW LIGHT OVERLAY ===== -->
+  <rect width="800" height="600" fill="url(#windowLight)"/>
+
+  <!-- ===== WARM AMBIENT LIGHT ===== -->
+  <rect width="800" height="600" fill="rgba(255,245,225,0.04)"/>
+
+  <!-- ===== LABEL ===== -->
+  <g>
+    <rect x="20" y="510" width="220" height="65" rx="8" fill="rgba(42,28,18,0.92)"/>
+    <rect x="20" y="510" width="220" height="65" rx="8" fill="none" stroke="rgba(180,140,90,0.3)" stroke-width="1"/>
+    <text x="130" y="538" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#faf3e0" text-anchor="middle" font-weight="bold" letter-spacing="3">AFTER</text>
+    <text x="130" y="558" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="rgba(250,243,224,0.6)" text-anchor="middle" letter-spacing="1">Finished Mesquite Dining Table</text>
+  </g>
 </svg>
